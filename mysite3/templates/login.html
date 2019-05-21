@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .page-header{
+            height: 50px;
+            background-color: rebeccapurple;
+        }
+        .page-body .menu{
+            height: 400px;
+            background-color: antiquewhite;
+            float: left;
+            width: 20%;
+        }
+        .page-body .content{
+            height: 400px;
+            background-color: cornflowerblue;
+            float: left;
+            width: 80%;
+        }
+        .page-footer{
+            height: 30px;
+            background-color: darkgreen;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+<form method="post" action={% url "login" %}>
+    <input type="text" name="username">
+    <input type="text" name="pwd">
+    <input type="submit" value="submit">
+    {% csrf_token %}
+</form>
+<div>
+    <div class="page-header"></div>
+    <div class="page-body">
+        <div class="menu">
+            <a href="/app01/ordered">订单</a><br>
+            <a href="/app01/shopping">购物车</a>
+        </div>
+        <div class ="content"></div>
+    </div>
+    <div class="page-footer"></div>
+</div>
+</body>
+</html>

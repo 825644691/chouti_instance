@@ -1,0 +1,174 @@
+{% extends "base.html" %}
+
+{% block head %}
+    <h1 align="center">hello {{ username }}</h1>
+{% endblock %}
+
+{% block content %}
+
+    <input id="id_add" type="button" value="添加">
+<table border="1">
+    <thead>
+    <tr>
+        <th>id</th>
+        <th>标题</th>
+        <th>操作</th>
+    </tr>
+    </thead>
+
+<tbody>
+{% for class in classes %}
+    <tr>
+        <td>{{ class.id }}</td>
+        <td>{{ class.caption }}</td>
+        <td><a class="td-edit" >编辑</a><a class="td-delete" >删除</a></td>
+    </tr>
+{% endfor %}
+</tbody>
+</table>
+
+<div class="modal hide">
+<h1>模态对话框</h1>
+
+    <input id="cap_name" type="text" name="caption" placeholder="班级名">
+    <input id="id_modal_cancel" type="button" value="取消">
+
+    <input type="button" id="model_ajax_submit" value="确定">
+
+</div>
+<div class="shade hide"></div>
+<div class="remove hide">
+<input id="id_remove_cancel" type="button" value="取消">
+<input type="button" value="确定">
+</div>
+{% autoescape off %}
+    {{ str_pager }}
+{% endautoescape %}
+{% endblock %}
+
+{% block js %}
+    <script>
+
+        $(function () {
+            $("#menu_class").addClass("active");
+            bindAddEvent();
+            bindCancelEvent();
+            bindTdDeleteEvent();
+            bindTdEditEvent()
+            bindSubmitEvent();
+        });
+        function bindAddEvent() {
+            $("#id_add").click(function () {
+                $('.modal,.shade').removeClass('hide')
+                
+            });
+
+            
+
+            
+        }
+        function bindCancelEvent() {
+            $("#id_modal_cancel,#id_remove_cancel").click(function () {
+                $('.modal,.shade,.remove').addClass('hide')
+            })
+        }
+
+        function bindTdEditEvent(){
+            $('tbody').on('click','.td-edit',function () {
+                $('.modal,.shade').removeClass("hide");
+                let obj = $(this);
+                let data = obj.parent().prevAll();
+                let content = data[0].innerText;
+
+                $('.modal input[name="caption"]').val(content);
+
+
+
+            })
+        }
+        function bindTdDeleteEvent() {
+            /*
+            $('td .td-delete').click(function () {
+                $('.remove,.shade').removeClass("hide")
+            })
+            */
+
+            $('tbody').on('click', ".td-delete", function () {
+
+                obj = $(this)
+                id =obj.parent().prevAll()[1].innerText;
+                alert(id)
+
+                $.ajax({
+                    url: "/app01/delete/",
+                    type: "POST",
+                    data: {id:id},
+
+                    success: function (data) {
+
+                        console.log($(this))
+
+                        obj.parent().parent().remove()
+
+
+
+
+
+                    }
+
+                })
+            })
+
+
+        }
+        function bindSubmitEvent(){
+            $('#model_ajax_submit').click(function () {
+                let value = $('.modal input[name="caption"]').val()
+
+                $.ajax({
+                    url:"/app01/classes/",
+                    type: "POST",
+                    data:{caption:value},
+                    dataType: "JSON",
+                    success:function (data) {
+
+                        if(!data.status){
+
+                            alert(data.error)
+                        }else{
+                            location.reload()
+                            {#let tr = document.createElement("tr");#}
+                            {#let td1 = document.createElement("td");#}
+                            {#td1.innerText=data.data.id;#}
+                            {#let td2 = document.createElement("td");#}
+                            {#td2.innerText=data.data.caption;#}
+                            {#let td3 = document.createElement("td");#}
+                            {#let a1 = document.createElement("a");#}
+                            {#a1.href="#";#}
+                            {#a1.innerText="编辑";#}
+                            {#let a2 = document.createElement("a");#}
+                            {#a2.className="td-delete";#}
+                            {#a2.innerText="删除";#}
+                            {#$(td3).prepend(a1,"|");#}
+                            {##}
+                            {#$(td3).append(a2);#}
+                            {#$(tr).append(td1);#}
+                            {#$(tr).append(td2);#}
+                            {#$(tr).append(td3);#}
+                            {#$('table tbody').prepend(tr);#}
+                            {#$('.modal input[name="caption"]').val("");#}
+                            {#$('.modal,.shade').addClass("hide")#}
+                        }
+
+
+
+
+                    }
+
+                })
+            })
+        }
+    </script>
+{% endblock %}
+
+

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript">
+        function func1(){
+        xmlhttp = new XMLHttpRequest();
+
+        xmlhttp.onreadystatechange=function () {
+            {#alert(xmlhttp.status);#}
+
+           if (xmlhttp.readyState==4 && xmlhttp.status==200){
+               let data =xmlhttp.responseText;
+               alert(data)
+           }
+       };
+        //xmlhttp.open("GET","/app01/ajax_receive");
+        xmlhttp.open("POST","/app01/ajax_receive/");
+        //放在send之前，open之后
+        xmlhttp.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+        xmlhttp.send("name="+"lxl");
+
+
+        }
+
+
+
+    </script>
+</head>
+<body>
+<button onclick="func1()">ajax提交</button>
+</body>
+</html>

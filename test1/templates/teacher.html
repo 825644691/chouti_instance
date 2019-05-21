@@ -1,0 +1,117 @@
+{% extends "base.html" %}
+{% block head %}
+<h1>hello {{ username }}</h1>
+{% endblock %}
+
+
+
+
+{% block css %}
+    <style>
+    .tag{
+        display: inline-block;
+        padding: 5px;
+        border:1px solid red;
+        background-color: lightpink;
+        cursor:pointer;
+    }
+    </style>
+
+{% endblock %}
+
+
+{% block js %}
+    <script>
+    $(function () {
+        $('#menu_teacher').addClass("active");
+        //bindEditEvent();
+        bindCancelEvent();
+        bindTagEvent();
+    });
+
+
+    function bindEditEvent() {
+        $('.td-edit').click(function () {
+            $('.modal,.shade').removeClass("hide");
+            let obj = $(this)
+            let teacher_name = obj.parent().prevAll()[1].innerText;
+            $('input[name="name"]').val(teacher_name)
+        })
+
+    }
+    function bindCancelEvent() {
+        $('#id_modal_cancel').click(function () {
+            $('.modal,.shade').addClass("hide")
+        })
+    }
+    function bindTagEvent(){
+        $('tbody').on('click','.tag',function () {
+            let flag = confirm("确认删除吗");
+            let obj = $(this);
+            if(flag){
+                let content = obj[0].innerText;
+                let id = obj.parent().prevAll()[1].innerText
+
+
+
+                $.ajax({
+                    url:"/app01/tag_delete/",
+                    data:{tag:content,id:id},
+                    type:"POST",
+                    success:function (data) {
+                        obj[0].remove()
+                    }
+                })
+
+            }
+        })
+    }
+    </script>
+{% endblock %}
+
+
+
+{% block content %}
+
+    <div class="modal hide">
+<h1>模态对话框</h1>
+
+    <input id="teacher_name" type="text" name="name">
+    <p>班级:<select name="cls" multiple>
+
+
+
+        </select></p>
+
+    <input type="button" id="model_ajax_submit" value="确定">
+
+</div>
+<div class="shade hide"></div>
+
+
+
+    <p1><a href="/app01/add_teacher">添加</a></p1>
+<table border="1 ">
+<tbody>
+{% for teacher in teacher_list.values %}
+    <tr>
+        <td>{{ teacher.nid }}</td>
+        <td>{{ teacher.name }}</td>
+        <td>
+             {% for class in teacher.cls_list %}
+             <span class="tag">{{ class.caption }}</span>
+             {% endfor %}
+
+        </td>
+        <td><a href="/app01/edit_teacher-{{ teacher.nid }}">更改</a></td>
+    </tr>
+
+{% endfor %}
+</tbody>
+
+
+</table>
+    {% autoescape off %}
+{{ pager }}
+    {% endautoescape %}
+{% endblock %}

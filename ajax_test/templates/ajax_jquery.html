@@ -1,0 +1,101 @@
+#get(url,[data],[callbcak],[type])
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="/static/jquery-3.3.1.min.js"></script>
+    <script>
+         {#$.getJSON("http://127.0.0.1:8001/app01/JQ_receive?callback=?",function (arg)#}
+         {#{#}
+         {#          alert("hello"+arg)#}
+         {#})#}
+        $.ajax({
+            url:"http://127.0.0.1:8001/app01/JQ_receive/",
+            dataType: "jsonp",
+            jsonp: "callback",
+            success: function (data) {
+                alert(data)
+            }
+
+
+         })
+    </script>
+
+    <script>
+
+        function func1() {
+            Test()
+        }
+        function Test() {
+            //$.post()
+            {#$.get("/app01/JQ_receive/",{name:"lxl"},function (data,stateText,obj) {//obj就是js的ajax里面XMLHttpRequest#}
+            {#    //console.log(arguments);#}
+            {#    console.log(data);#}
+            {#    console.log(stateText);#}
+            {#    console.log(obj);#}
+            {#    alert(data)#}
+            {##}
+            {#},type:JSON)#}
+
+
+        {#$.getScript("/static/add.js",function () {//动态加载js文件中的方法，用到再加载#}
+        {#    alert(add(2,5))#}
+        {#})#}
+        {#}#}
+
+            $.ajax({
+                url: "http://127.0.0.1:8001/app01/JQ_receive/",
+                //url: "/app01/JQ_receive/",
+                type: "POST",
+                //data: {a:1,b:2},
+                //processData: false,
+                //content-type:
+                data: {a:1,b:[3,4]},
+                //dataType: "json",//告诉服务端，我要json数据类型
+                traditional:true,//当{}中的值有[]时加上
+                success: function (data) {
+
+                    console.log(data)
+                },
+                //error: function (data) {
+//
+                //},
+               // beforeSend:function (data) {
+
+               // },
+               // complete:function (data) {//不管success or error都打印
+
+                //},
+                //statusCode:{
+                //403:function (data) {
+
+               // },
+                //500:function (data) {
+
+               // }
+               // }
+
+
+            });
+
+
+        {#$.post("/app01/JQ_receive/",function (data) {#}
+        {#    console.log(data);#}
+        {#    console.log(typeof data);#}
+        {#    data = JSON.parse(data);#}
+        {#    console.log(typeof data);#}
+        {#    console.log(data['name'])#}
+        {##}
+        {##}
+        {##}
+        {##}
+        {#})#}
+        }
+    </script>
+</head>
+<body>
+<button onclick="func1()">ajax提交</button>
+ajax里面的{name:""}键不用加引号
+</body>
+</html>

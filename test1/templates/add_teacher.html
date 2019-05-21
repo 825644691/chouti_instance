@@ -1,0 +1,27 @@
+{% extends "base.html" %} }
+{% block js %}
+    <script>
+    $(function () {
+        $('#menu_teacher').addClass("active")
+    })
+    </script>
+{% endblock %}
+
+{% block head %}
+<h1>hello! {{ username }}</h1>
+{% endblock %}
+
+
+{% block content %}
+    <form action="/app01/add_teacher/" method="post">
+        <p><input type="text" name="name"></p>
+        <p>班级:<select name="cls" multiple>
+            {% for cls in cls_list %}
+            <option value="{{ cls.id }}">{{ cls.caption }}</option>
+            {% endfor %}
+
+
+        </select></p>
+        <input type="submit" value="添加">
+    </form>
+{% endblock %}

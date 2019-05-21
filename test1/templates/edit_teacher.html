@@ -1,0 +1,60 @@
+{% extends "base.html" %}
+
+{% block head %}
+ <h3 align="center">hello{{ username }}</h3>
+{% endblock %}
+
+{% block content %}
+<form action="/app01/edit_teacher-{{ obj.id }}/" method="post">
+        <p><input type="text" name="nid" value="{{ obj.id }}"></p>
+        <p><input type="text" name="name" value="{{ obj.name }}"></p>
+        <p>未管理班级:<select id="none" name="cls" multiple>
+            {% for cls in cls_list %}
+                <option value="{{ cls.id }}">{{ cls.caption }}</option>
+            {% endfor %}
+        </select>
+        已经管理班级：<select id="sel" name="class" multiple>
+            {% for clss in id_list %}
+              <option value="{{ clss.id }}">{{ clss.caption }}</option>
+            {% endfor %}
+            
+        </select>
+        </p>
+        <div>
+            <a id="removeCls">asd</a>
+        </div>
+        <input id="submit_form" type="submit" value="添加">
+    </form>
+{% endblock %}
+{% block js %}
+    <script>
+    $(function () {
+        bindRemoveEvent();
+        bindSubmitEvent();
+    });
+    function bindSubmitEvent() {
+        $('#submit_form').click(function () {
+            $('#sel').children().each(function () {
+                $(this).prop('selected',true)
+            })
+        })
+    }
+    function bindRemoveEvent() {
+        $('#removeCls').click(function () {
+            let options = $('#none')[0].selectedOptions;
+            /*
+            $.each(options,function (k,v) {
+                $(v).appendTo('#none')
+                console.log(v)
+            })
+
+             */
+            while(options.length>0){
+                $(options[0]).appendTo("#sel")
+            }
+
+        })
+        
+    }
+    </script>
+{% endblock %}

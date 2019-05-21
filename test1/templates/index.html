@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="/static/jquery-3.3.1.min.js"></script>
+    <script src="/static/jquery.cookie.js"></script>
+    <script>
+        $.cookie()
+        //一个参数 ,$.cookie(k) 获取值
+        //两个参数, $.cookie(k,v) 设置值
+        //两个以上参数,$.cookie(k,v,{}),在括号中写
+    </script>
+</head>
+<body>
+<h1>hello {{ username }}</h1>
+<h1><a href={% url "logout" %}>注销</a></h1>
+<h1>COOKIES是保存在客户端的，可以主动清除</h1>
+<h1>就是保存在浏览器端的键值对，可以利用做登陆</h1>
+<h1>set_cookies()中的参数path="/"全局生效，/xxx/表示只在xxx中生效</h1>
+<h1>set_cookies()中的参数domin如果不填，默认设置在2级域名上</h1>
+<h1>set_cookies()中的参数secure=false,是用http协议进行访问，如果要用https进行访问，要改成TRUE</h1>
+<h1>set_cookies()中的参数httponly,只有http访问才可以操作cookies</h1>
+<h1 style="color: #3c763d">以下关于SESSION</h1>
+<h1>request.session["k1"]="v1"无论k1存不存在，都会设置</h1>
+<h1>request.session.setdefault("k1","v1") 如果k1存在就不设置</h1>
+<h1>request.session.session_key 获取用户的session随机字符串</h1>
+</body>
+</html>

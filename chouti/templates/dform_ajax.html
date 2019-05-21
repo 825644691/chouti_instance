@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="/static/jquery-3.3.1.min.js"></script>
+    <script>
+       $(function () {
+           bindSubmitEvent()
+       })
+        function bindSubmitEvent() {
+            $('.ajax-submit').click(function () {
+
+
+                $.ajax({
+                    url:"/app01/dform_ajax/",
+                    data:$("#f1").serialize() ,
+                    type:"POST",
+                    success: function (data) {
+                        var v1 = JSON.parse(data);
+                        console.log(v1)
+                        if(!v1.status){
+                            //var error_obj = v1.error
+                            var error_obj = JSON.parse(v1.error);
+                            $.each(error_obj,function (k,v) {
+                                //k：user or email
+                                //v:[{},{}]
+                                var tag = document.createElement('span')
+                                tag.innerText=v[0].message;
+                                $("input[name='"+ k +"']").after(tag)
+
+
+                            })
+                        }
+                    }
+                })
+            })
+        }
+    </script>
+</head>
+<body>
+<form id="f1">
+    <input type="text" name="user">
+    <input type="email" name="email">
+    <input type="button" class="ajax-submit" value="提交">
+</form>
+</body>
+</html>

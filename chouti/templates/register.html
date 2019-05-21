@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="/static/jquery-3.3.1.min.js"></script>
+    <script>
+       $(function () {
+           bindSubmitEvent()
+       })
+        function bindSubmitEvent() {
+            $('#ajax_submit').click(function () {
+
+
+                $.ajax({
+                    url:"/app01/register1",
+                    data: {user:"root",email:"lxl@qq.com",pwd:"1234"},
+                    type:"POST",
+                    success: function (data) {
+                        alert(data)
+                    }
+                })
+            })
+        }
+    </script>
+</head>
+<body>
+<form action={% url "register" %} method="post">
+    {% csrf_token %}
+    <p>{{ obj.user }}<span>{{ obj.errors.user.0 }}</span></p>
+    <p>{{ obj.email }}<span>{{ obj.errors.email.0 }}</span></p>
+    <p><input type="password" name="pwd" placeholder="密码"></p>
+    <input type="submit" value="注册">
+
+</form>
+<button id="ajax_submit">AJAX注册</button>
+</body>
+</html>

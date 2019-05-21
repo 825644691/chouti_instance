@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form method="post" action={% url "login" %}>
+
+    <p>{{ obj.username.label_tag }}{{ obj.username }}</p>
+    <p>{{ obj.password.label_tag }}{{ obj.password }}</p>
+    <p>{{ obj.email.label_tag }}{{ obj.email }}</p>
+    <p><input type="submit" value="登陆"></p>
+    <p>{{ message }}</p>
+</form>
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .container img{
+            width: 200px;
+            height: 200px;
+        }
+
+    </style>
+    <script src="/statics/jquery-3.3.1.min.js"></script>
+    <script>
+        function iframeChange(){
+           let url = $('#url').val();
+           $('#ifr').attr("src",url)
+
+        }
+        $(function () {
+            bindSubmitEvent()
+        })
+        function bindSubmitEvent() {
+            $('.ajax_sub').click(function () {
+                let dic = new FormData();
+                dic.append("user","v1");
+                dic.append("fafafa",document.getElementsByName('fafafa').files[0])
+                $.ajax({
+                    url:"/app01/upload1/",
+                    type:"POST",
+                    data:dic,
+                    success:function (data) {
+                        let img = document.createElement('img')
+                        img.src="/"+data
+                        $("#imgs").append(img)
+                    }
+
+                })
+            })
+        }
+    </script>
+</head>
+<body>
+<input type="text" id="url">
+<button onclick="iframeChange()">点我</button>
+<iframe id="ifr" src="" frameborder="1"></iframe>
+
+<form action="/app01/upload/" method="post" enctype="multipart/form-data">
+    <input type="text" name="user">
+    <input type="file" name="fafafa">
+    <input type="submit" value="提交">
+    <button class="ajax_sub">ajax提交</button>
+</form>
+<div class="container" id = "imgs">
+    {% for ph in photo_list %}
+    <img src="/{{ ph.path }}" alt="">
+{% endfor %}
+
+
+</div>
+
+</body>
+</html>

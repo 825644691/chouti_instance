@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="/statics/jquery-3.3.1.min.js"></script>
+ {% block css %}
+ 
+ {% endblock %}
+    {% block js %}
+
+    {% endblock %}
+    <style>
+        .active{
+            background-color: red;
+        }
+        .hide{
+            display: none;
+        }
+        .page-header{
+            height: 50px;
+            background-color: rebeccapurple;
+        }
+        .page-body .menu_class{
+            height: 400px;
+            background-color: antiquewhite;
+            float: left;
+            width: 20%;
+        }
+        .page-body .content{
+            height: 400px;
+            background-color: cornflowerblue;
+            float: left;
+            width: 80%;
+        }
+        .page-footer{
+            height: 30px;
+            background-color: darkgreen;
+            clear: both;
+        }
+        .modal{
+            position: fixed;
+            top:50%;
+            left: 50%;
+            width: 500px;
+            height: 400px;
+            margin-top: -250px;
+            margin-left: -250px;
+            z-index: 100;
+            background-color: white;
+
+        }
+
+        .remove{
+            position: fixed;
+            top:50%;
+            left: 50%;
+            width: 200px;
+            height: 200px;
+            margin-top: -100px;
+            margin-left: -200px;
+            z-index: 100;
+            background-color: red;
+
+        }
+        .shade{
+            position:fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: black;
+            opacity: 0.5;
+            z-index:99;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <div class="page-header">
+        {% block head %}
+
+        {% endblock %}
+    </div>
+    <div class="page-body">
+        <div class="menu_class">
+            <a href="/app01/classes">班级管理</a><br>
+            <a href="/app01/student">学生管理</a><br>
+            <a id="menu_teacher" href="/app01/teacher">老师管理</a>
+        </div>
+        {% block content %}
+
+
+        {% endblock %}
+    </div>
+    <div class="page-footer"></div>
+</div>
+</body>
+</html>

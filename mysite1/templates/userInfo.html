@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="/static/jquery-3.3.1.min.js"></script>
+    <script>
+         function del(w) {
+
+             $.ajax({
+                 url:"/blog/delete1",
+                 type:"POST",
+                 data:{username:w},
+                 success:function (data) {
+                     var flag = confirm("确认删除吗")
+                     if(flag){
+                         $(this).parent().parent().remove()
+                     }
+
+
+
+
+                 }
+             })
+         }
+    </script>
+    <link rel="stylesheet" href="/static/bootstrap.min.css">
+<!--    <link href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" rel="stylesheet">-->
+<!--    &lt;!&ndash; jQuery (Bootstrap 的所有 JavaScript 插件都依赖 jQuery，所以必须放在前边) &ndash;&gt;-->
+<!--    <script src="https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script>    &lt;!&ndash; 加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。 &ndash;&gt;-->
+<!--    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"> </script>-->
+
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div style="padding: 100px 100px 10px;">
+    <form class="bs-example bs-example-form" role="form">
+        <div class="input-group">
+            <span class="input-group-addon">@</span>
+            <input type="text" class="form-control" placeholder="twitterhandle">
+        </div>
+        <br>
+        <div class="input-group">
+            <input type="text" class="form-control">
+            <span class="input-group-addon">.00</span>
+        </div>
+        <br>
+        <div class="input-group">
+            <span class="input-group-addon">$</span>
+            <input type="text" class="form-control">
+            <span class="input-group-addon">.00</span>
+        </div>
+    </form>
+</div>
+<form action="/blog/userInfo" method="post">
+    <p>姓名<input type="text" name="username"></p>
+    <p>性别<input type="text" name="gender"></p>
+    <p>邮箱<input type="text" name="email"></p>
+    <p><input type="submit" value="submit"></p>
+</form>
+
+{% if user_list %}
+
+{% endif %}
+<hr>
+<h1>数据展示</h1>
+<table>
+
+    <tr>
+        <td>姓名</td>
+        <td>性别</td>
+        <td>邮箱</td>
+    </tr>
+    user_list=[{},{},{}]
+    {%for i in user_list%}
+    <tr>
+        <td>{{i.username}}</td>
+        <td>{{i.gender}}</td>
+        <td>{{i.email}}</td>
+        <td><button onclick="del(this,'{{ i.username }}')">删除</button></td>
+        </tr>
+    {% endfor %}
+
+</table>
+</body>
+</html>

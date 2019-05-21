@@ -1,0 +1,36 @@
+{% load my_tag %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{#{% if 0 %}#}
+{#{{ s1.1 }}#}
+{#    #}
+{#{% elif s2 %}#}
+{#    {{ s2.name }}#}
+{##}
+{#{% endif %}#}
+{#{% for i in obj %}#}
+{#    {{ forloop.counter }}:{{ i }}#}
+{##}
+{#{% endfor %}#}
+{{ s2.name|upper }}#内置的fitter，会把s2.name传到upper(变大写)中作处理再返回一个处理后的数据
+{{ s2.name|lower }}
+{{ s2.name|capfirst}}#首字母大写
+<h1>{{ s2.age|add:5 }}</h1>
+<h1>{{ s2.age|cut:"8" }}</h1>
+<h1>{{ s3|date:"Y-m-d"}}</h1>
+{#{% autoescape off%}#}
+{#<h1>{{ s5 }}<h1>#当s5是一个链接的时候，要加上autoescape off来标是s5需要渲染#}
+{#{% endautoescape %}#}
+{% verbatim %}
+<h1>{{ s5|safe }}</h1>
+{% endverbatim %}#verbatim不要渲染
+{% my_add100 s2.age %}
+<h1>{{ s2.age|my_add100:8 }}</h1>#自定义filter只能定义两个参数，s2.age默认第一个参数，：后面的作为第二个参数
+</body>
+</html>
