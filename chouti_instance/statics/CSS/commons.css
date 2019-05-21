@@ -1,0 +1,139 @@
+.left{
+    float: left;
+}
+body{
+    margin: 0 auto;
+    color: red;
+    font: 12px Tahoma,Verdana,Arial,Helvetica,"\5b8b\4f53",sans-serif;
+}
+.right{
+    float: right;
+}
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+.hide{
+    display: none;
+}
+
+.not-allow{
+    cursor: not-allowed;
+}
+/* 登陆注册 */
+.user-info{
+    position: fixed;
+    width: 700px;
+    height: 375px;
+    left: 50%;
+    top: 50%;
+    margin-left: -350px;
+    margin-top: -250px;
+    z-index:1001;
+    background-color: rgb(230,236,243);
+}
+.user-info .login{
+    width: 349px;
+    background-color: #ffffff;
+    height: 375px;
+    border-right: 1px solid #cbdcee;
+}
+.user-info .register{
+    width: 350px;
+    background-color: #ffffff;
+    height: 375px;
+}
+.user-info .register .header,.user-info .login .header{
+    background: #e7ecf2;
+    padding: 5px 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #abb6d2;
+    position: relative;
+}
+
+.user-info .register .content .tips,.user-info .login .content .tips{
+    padding: 10px 0;
+
+    font-size: 14px;
+    color: #abb6d2;
+    cursor:pointer;
+    text-align: left;
+}
+.user-info .register .content .inp,.user-info .login .content .inp{
+    padding: 10px 0;
+    position: relative;
+}
+
+.user-info .register .content .inp .error,.user-info .login .content .inp .error{
+    font-size: 10px;
+
+    color: #e4393c;
+    background: #FFEBEB;
+    border: 1px solid #ffbdbe;
+    z-index: 10;
+    height: 15px;
+    width: 108px;
+    line-height: 15px;
+    display: block;
+    overflow: hidden;
+}
+
+.user-info .register .content .inp .fetch-code{
+    display: inline-block;
+    background-color: #336699;
+    height: 29px;
+    line-height: 29px;
+    padding: 0 5px;
+    color: #ffffff;
+    text-decoration: none;
+
+}
+
+.user-info .register .content .inp .fetch-code.sending{
+    cursor:not-allowed;
+    background-color: #a3a3a1;
+}
+.user-info .register .content .inp .submit,.user-info .login .content .inp .submit{
+    width: 95px;
+    height: 31px;
+    line-height: 31px;
+    margin-top: 5px;
+    background-color: #336699;
+    color: #ffffff;
+    text-align: center;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 700;
+    display: inline-block;
+}
+.user-info .login .content .extra{
+
+}
+.user-info .login .content .extra a{
+
+    color: #369;
+}
+.user-info .register .header .dialog-close{
+    position: absolute;
+    right: 10px;
+    top: 1px;
+    color: #99aecb;
+    cursor: pointer;
+}
+.user-info .register .content .inp .email-code{
+    width: 80px;
+    padding: 6px;
+    border: 1px solid #CDDDEF;
+}
+.user-info .login .content .inp .check-code{
+    width: 100px;
+    margin-top: -10px;
+    clear: both;
+    padding: 6px;
+    border: 1px solid #CDDDEF;
+    line-height: 15px;
+}
