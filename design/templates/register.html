@@ -7,11 +7,9 @@
 <body>
 <form method="post" action={% url "register" %}>
 
-    <p>{{ obj.username.label_tag }}{{ obj.username }}</p>
-    <p>{{ obj.password.label_tag }}{{ obj.password }}</p>
-    <p>{{ obj.email.label_tag }}{{ obj.email }}</p>
+    {{ obj.as_p }}
     <p><input type="submit" value="确定"></p>
-    <p>{{ message }}</p>
+
 </form>
 </body>
 </html>

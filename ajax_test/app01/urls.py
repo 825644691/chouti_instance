@@ -7,4 +7,6 @@ urlpatterns = [
     path('register/', views.register),
     path('JQ_test/', views.JQ_test),
     path('JQ_receive/', views.JQ_receive),
+    path('test/', views.test),
+    path('test1/', views.test1),
 ]

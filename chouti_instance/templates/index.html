@@ -2,9 +2,157 @@
 
 {% block js %}
     <script>
+
     $(function () {
+
+        {#个人图片#}
+        BindSubPublishEvent();
+        ShowPublishEven1();
+        ShowPublishEven2();
         BindSendMsg();
+        BindLoginEvent();
+        addConnectEvent();
+        var width = $(window).width()-300;
+        if(width<1200){
+            width = 1200;
+        }
+        var body_width = $(window).width();
+        if(body_width<1500){
+            body_width=1500;
+        }
+        var search_width = width*0.4-50;
+
+        var news_body = width*0.6-20;
+
+        $(".pg-header")[0].style.width=width+"px";
+        $(".aaa")[0].style.width=body_width+"px";
+        $(".new-search")[0].style.width = search_width+"px";
+
+        $(".news-body")[0].style.width = news_body+"px";
+
+    {#    bublish#}
+        $(function(){
+                $('li').click(function(){
+                $(this).addClass('current').siblings().removeClass('current');
+                var i = $(this).index();
+
+                $('.content').children(":eq("+i+")").removeClass('hide').siblings(".publish-content").addClass("hide");
+           });
+                $('a').click(function () {
+                    $(this).addClass("active").siblings().removeClass("active")
+                })
+        });
+
+    {# 懒加载#}
+
+        lazyRender();
+        $(window).on("scroll",function () {
+            console.log("运行了一次");
+            lazyRender();
+        });
     });
+    function lazyRender(){
+        $('.news-pic img').each(function () {
+            if(checkShow($(this))&&!isLoaded($(this))){
+                loadImg($(this));
+            }
+        })
+    }
+    function checkShow($img){
+        var scrollTop = $(window).scrollTop();//页面向上滚动的距离
+        var windowHeight = $(window).height();//浏览器自身高度
+        var offsetTop = $img.offset().top;
+        return (offsetTop < (scrollTop + windowHeight)&& offsetTop > scrollTop)
+
+
+    }
+    function isLoaded($img){
+        return $img.attr("data-src") === $img.attr("src");
+    }
+    function loadImg($img){
+        $img.attr("src",$img.attr("data-src"));
+
+    }
+    function addConnectEvent(){
+        var type = $("#tab-menu-title").children(".current").text();
+
+        $(".right").click(function () {
+            var text = $("input[name='url']").val();
+            var type = $("#tab-menu-title").children(".current").text();
+            if(type == "链接"){
+                $.ajax({
+                url: "/app01/addConnect/",
+                type: "post",
+                data: {text:text},
+                dataType: "json",
+                success: function (data) {
+                    if(!data){
+                        alert("链接不能为空")
+                    }
+                    else{
+                        $("input[name='title']").val(data)
+                    }
+
+                }
+            })
+            }
+
+        })
+
+    }
+    function BindSubPublishEvent(){
+        $("#submit_text").click(function () {
+            var type = $("#tab-menu-title").children(".current").text();
+            var region = $(".news-type").children(".active");
+            var dic = new FormData();
+            var i = 0;
+            $.each(region,function () {
+                i +=1;
+                dic.append(i,$(this).text())
+            });
+            var title = $("textarea[name='title']").val();
+            dic.append("title",title);
+            dic.append("type",type);
+            $.ajax({
+                url: "/app01/publish/",
+                type: "post",
+                data: dic,
+                contentType: false,
+                processData: false,
+                success: function (data) {
+                    if(data){
+                        location.reload();
+                    }else{
+                        alert("错误");
+                    }
+                }
+            })
+
+        });
+        $("#submit_link").click(function () {
+            var title = $("input[name='title']").val();
+            var content = $("textarea[name='content']").val();
+            var region = $(".news-type").children(".active").attr("value");
+            var type = $("#tab-menu-title").children(".current").text();
+            $.ajax({
+                url: "/app01/publish/",
+                type: "post",
+                data: {title:title,content:content,region:region,type:type},
+                success: function (data) {
+                    if(data){
+                        location.reload();
+                    }else{
+                        alert("错误");
+                    }
+                }
+            })
+            });
+
+    }
+    function ChangeCode(ths) {
+        ths.src += "?";
+
+    }
     function BindSendMsg() {
         $("#fetch_code").click(function () {
             $("#register_error_summary").empty();
@@ -68,7 +216,12 @@
                     tag.className = "error";
                     tag.innerText = v[0]["message"];
                     $('#model_login input[name="'+ k +'"]').after(tag)
-                    })
+                    });
+                    $(ths).children(":eq(0)").removeClass("hide");
+                    $(ths).children(":eq(1)").addClass("hide");
+                    $('.check-code').val("");
+                    $('.check-img')[0].src += "?";
+
 
                 }
 
@@ -105,15 +258,501 @@
                         $('#model_register input[name="'+ k +'"]').after(tag)
                     })
                 }
+                $(ths).children(':eq(0)').removeClass('hide');
+                $(ths).addClass('not-allow').children(':eq(1)').addClass('hide');
+            }
+
+        })
+    }
+    function DoFavor(ths,nid){
+         if($("#action_nav").attr("is-login")=="true") {
+
+
+             $.ajax({
+                 url: '/app01/favor/',
+                 type: "POST",
+                 data: {news_id: nid},
+                 dataType: "json",
+                 success: function (data) {
+                     if (data.status) {
+                         var favorCount = $("#favor_count_" + nid);
+                         var c = parseInt(favorCount.text());
+                         if (data.code == 2301) {
+                             favorCount.text(c + 1);
+                             $(ths).find("span").addClass("active");
+                             AddFavorAnimation(ths)
+                         } else if (data.code == 2302) {
+                             favorCount.text(c - 1);
+                             $(ths).find("span").removeClass("active")
+                             MinFavorAnimation(ths)
+                         } else {
+
+                         }
+                     }
+                 }
+             })
+         }else{
+             $(".shadow").removeClass("hide")
+             $(".user-info").removeClass("hide")
+         }
+    }
+    function MinFavorAnimation(ths) {
+        var offsetTop = 2;
+        var offsetLeft = 20;
+        var fontSize = 15;
+        var opacity = 1;
+        var tag = document.createElement("i")
+        tag.innerText="-1"
+        tag.style.fontWeight = "bolder";
+        tag.style.position = "absolute";
+        tag.style.top = offsetTop + "px";
+        //tag.style.left = offsetLeft + "px"
+        tag.style.fontSize = fontSize + "px";
+        tag.style.color = "#5cb85c";
+        $(ths).append(tag);
+        var minInterval = setInterval(function () {
+            offsetTop += 3;
+            opacity -= 0.2;
+            tag.style.top = offsetTop+ 'px';
+            //tag.style.left = offsetLeft+ 'px';
+            tag.style.opacity = opacity;
+            if(opacity <=0.5){
+                interval.clear(minInterval)
+                tag.remove()
+            }
+        },100)
+
+    }
+    function AddFavorAnimation(ths){
+        var offsetTop = 2;
+        var offsetLeft = 20;
+        var fontSize = 15;
+        var opacity = 1;
+        var tag = document.createElement("i");
+        tag.innerText="+1";
+        tag.style.fontWeight = "bolder";
+        tag.style.position = "absolute";
+        tag.style.top = offsetTop + "px";
+        //tag.style.left = offsetLeft + "px";
+        tag.style.fontSize = fontSize +"px";
+        tag.style.color = "#5cb85c";
+        $(ths).append(tag);
+        var addInterval = setInterval(function () {
+            fontSize += 1;
+            offsetTop -= 3;
+            offsetLeft +=1;
+            opacity -= 0.2;
+            tag.style.top = offsetTop+ 'px';
+            //tag.style.left = offsetLeft+ 'px';
+            tag.style.fontSize = fontSize + 'px';
+            tag.style.opacity = opacity;
+            if(opacity <= 0.5){
+                tag.remove();
+                clearInterval(addInterval);
+            }
+
+
+        },100)
+    }
+    function BindLoginEvent() {
+        $(".login-btn-a").click(function () {
+            $(".shadow").removeClass("hide");
+            $(".user-info").removeClass("hide")
+        })
+    }
+    function CloseInfo(ths) {
+        $(ths).addClass("hide");
+        $(".shadow").addClass("hide");
+    }
+    function diGui_comment(children) {
+        var html = "";
+        console.log(children);
+        $.each(children,function (ck,cv) {
+            var b ='<div class="comment-base" id="comment-base-'+cv.id+'"><apan class="comment-user">';
+            b += cv.username;
+            b += '</apan><span class="comment-text" onclick="huifu('+cv.username+','+cv.news_id+','+cv.id+')">';
+            b += cv.content;
+            b += '</span><span class="comment-time-'+ cv.id +'">';
+            b += cv.time
+            b += '</span>';
+
+            var result = diGui_comment(cv.children);
+            b += result;
+            b += '</div>';
+            html += b;
+
+        });
+        return html
+    }
+    function create_tree(data,comment_list) {
+        $.each(data,function (k,v) {
+            var a ='<div class="comment-base" id="comment-base-'+v.id+'"><apan class="comment-user">';
+            a += v.username;
+            a += '</apan><span class="comment-text" onclick="huifu('+v.username+','+v.news_id+','+v.id+')">';
+            a += v.content;
+            a += '</span><span class="comment-time-'+ v.id +'">';
+            a += v.time;
+            a += '</span>';
+            var result = diGui_comment(v.children);
+            a += result;
+            a += '</div>';
+            comment_list.append(a);
+
+        })
+        
+    }
+    function ToggleCommentArea(nid){
+        var comment_area = $("#comment_area_"+nid);
+        if(comment_area.hasClass("hide")){
+            comment_area.removeClass("hide");
+            $(".loading-ico").removeClass("hide");
+            var comment_list = $("#comment_list_"+nid);
+
+            setTimeout(function () {
+                $.ajax({
+                url:"/app01/comment1/",
+                type:"POST",
+                dataType:"JSON",
+                data:{id:nid},
+                success:function (data) {
+                    create_tree(data,comment_list);
+                    $(".loading-ico").addClass("hide");
+
+                     {#comment_list.empty();#}
+                     {#comment_list.append(data);#}
+                     {# var loading = comment_area.find('.comment-box').children().first();#}
+                     {# loading.addClass("hide");#}
+                     {# loading.siblings().removeClass('hide');#}
+
+
+                }
+            })
+            }, 200);
+
+        }else {
+            comment_area.addClass("hide");
+            var comment_list = $("#comment_list_"+nid);
+            comment_list.empty()
+        }
+
+    }
+    function DoComment(nid,comment_id){
+
+        var parent_id = $("#reply_id_"+nid).text();
+        var data = $("#comment_content_"+nid).val();
+        var comment_list = $("#comment_list_"+nid);
+        $.ajax({
+            url: "/app01/addComment/",
+            type: "POST",
+            data: {id:nid,data:data,p_id:parent_id},
+            dataType: "JSON",
+            success: function (data) {
+                comment_list.empty();
+                create_tree(data,comment_list);
+                $("#comment_content_"+nid).val("");
+
+
             }
         })
+
+    }
+    function huifu(u,news_id,id){
+        data= "回复"+u+":";
+        var reply_id = $("#reply_id_"+news_id);
+        var comment_content = $("#comment_content_"+news_id);
+        reply_id.empty();
+        comment_content.empty();
+        reply_id.text(id);
+        comment_content.attr("placeholder",data);
+        $('html, body').animate({
+            scrollTop: (comment_content.offset().top-200)
+        }, 1000);
+
+
+
+    }
+    function HideCommentArea(nid) {
+
+        var comment_area = $("#comment_area_"+nid);
+        var comment_list = $("#comment_list_"+nid);
+        comment_list.empty();
+        comment_area.addClass("hide");
+    }
+    function ShowPublishEven1(){
+        $("#publishBtn1").click(function () {
+            $(".dialog").removeClass("hide");
+            $(".shadow").removeClass("hide");
+        })
+    }
+    function ShowPublishEven2(){
+        $("#publishBtn2").click(function () {
+            $(".user-info").removeClass("hide");
+            $(".shadow").removeClass("hide");
+        })
+    }
+    function CloseDialog(ths){
+        $(ths).addClass("hide");
+        $(".shadow").addClass("hide");
     }
     </script>
 {% endblock %}
 
 {% block body %}
-    <div class="shadow"></div>
-    <div id="userInfo" class="user-info clearfix">
+
+    <div class="aaa">
+    <div class="news-body" style="background-color: #eee;padding-left: 150px;float: left;" >
+    <div class="w body-content">
+        <div class="clearfix">
+            <div class="content-l">
+                <div class="nav-top-area">
+                    <div class="child-nav">
+                        <a href="javascript:void(0);" class="icons active hotbtn" id="hotts-nav-btn">最热</a>
+                        <a href="javascript:void(0);" class="newbtn" id="newest-nav-btn">最新</a>
+                    </div>
+                    {% if request.session.is_login %}
+                        <a href="javascript:void(0);" class="publish-btn" id="publishBtn1">
+                            <span class="ico n1"></span><span class="n2">发布</span>
+                        </a>
+                    {% else %}
+                        <a href="javascript:void(0);" class="publish-btn" id="publishBtn2">
+                            <span class="ico n1"></span><span class="n2">发布</span>
+                        </a>
+                    {% endif %}
+                </div>
+
+                <div class="content-list" id="content_list">
+                    {% for item in news_list %}
+                        <div class="item">
+                        <div class="news-pic">
+                            <img src="" data-src="/statics/images/1.jpg" alt="抽屉新热榜">
+                        </div>
+                        <div class="null-item"></div>
+                        <div class="news-content">
+                            <div class="part1">
+                                <a href="" class="show-content" target="_blank">{{ item.title }}</a>
+                                <span class="content-source">wallstreetcn.com</span>
+                                <a href="javascript:void(0);" class="n2">
+                                    <span class="content-kind">iiii</span>
+                                </a>
+                            </div>
+                            <div class="area-summary">
+                                {% if item.content %}
+                                    <span class="summary">{{ item.content }}</span>
+                                {% else %}
+                                <span class="summary"></span>
+                                {% endif %}
+                            </div>
+                            <div class="part2">
+                                <a href="javascript:void(0);" class="digg-a" title="推荐" onclick="DoFavor(this,{{ item.id }});">
+                                    {% if item.id in number %}
+                                        <span class="hand-icon icon-digg active"></span>
+                                    {% else %}
+                                        <span class="hand-icon icon-digg"></span>
+                                    {% endif %}
+                                        <b id="favor_count_{{ item.id }}">{{ item.praise_count }}</b>
+
+                                </a>
+                                <a href="javascript:void(0);" class="discus-a" onclick="ToggleCommentArea({{ item.id }});">
+                                    <span class="hand-icon icon-discus"></span>
+                                    <b id="comment_count_1">{{item.count}}</b>
+                                </a>
+                                <a href="javascript:void(0);" class="collect-a" >
+                                    <span class="hand-icon icon-collect"></span><b>收藏</b>
+                                </a>
+                                <a href="javascript:void(0);" class="user-a">
+                                    <span><img src="" alt=""></span>
+                                    <b>{{ item.username }}</b>
+                                </a>
+                                <span class="time-into">
+                                    <a class="time-a" href="#" target="_blank">
+                                        <b>data</b>
+                                    </a>
+                                    <i>入热榜</i>
+                                </span>
+
+                            </div><hr>
+                        <!--评论区 -->
+                        <div id="comment_area_{{ item.id }}" class="comment-box-area hide">
+                            <div class="pinglun arrow" id="comt-arrow-8118680"></div>
+                             <a class="pinglun close-comt" title="关闭" href="javascript:void(0);" onclick="HideCommentArea(1);"></a>
+                             <div class="corner comment-box clearfix">
+                                 <div class="loading-ico loading-ico-top hide" style="margin-left: 230px">加载中，请稍后</div>
+                                 <div class="comment-box-top ">
+                                     <div class="tip-1">最热评论(<span>111</span>)</div>
+                                     <div class="tip-2">
+                                         <a href="#" target="_blank">
+                                             <em class="pinglun em1"></em>
+                                             <span>去评论页面</span>
+                                         </a>
+                                     </div>
+                                 </div>
+                                 <ul id="comment_list_{{item.id}}" class="filetree comment-list-top-2 treeview">
+                                 </ul>
+                                 <div class="huifu-top-box">
+                                     <div class="box-l txt-input-area-div-top corner no-corner-bottom">
+                                         <div class="lab-comment-top">回复!!!!!!!!!!!!!!!!!!!!  <span id="reply_id_{{item.id}}"></span></div>
+                                         <!-- 针对谣言文本输入框无效 -->
+
+                                             <textarea id="comment_content_{{item.id}}" maxlength="150" name="txt-huifu-top" class="txt-huifu txt-huifu-top"></textarea>
+                                     </div>
+                                     <div class="box-r">
+                                         <a href="javascript:void(0);" class="pub-icons add-pub-btn add-pub-btn-unvalid" onclick="DoComment({{item.id}})">评论</a>
+                                         <a href="javascript:void(0);" class="loading-ico loading-ico-top pub-loading-top hide">发布中...</a>
+                                     </div>
+                                 </div>
+                                 <div class="tip-3 ">
+                                     <a href="javascript:void(0);" class="hiddenCom-Btn" onclick="HideCommentArea({{item.id}});">
+                                         <em class="pinglun em2"></em>
+                                         <span>收起</span>
+                                     </a>
+                                 </div>
+                             </div>
+                        </div>
+                        </div>
+                        </div>
+                    {% endfor %}
+
+                </div>
+            {% autoescape off %}
+                <div class="pagination">
+                        {{ pager_str }}
+                    </div>
+            {% endautoescape %}
+            </div>
+
+        </div>
+
+    </div>
+
+
+    </div>
+    <div class="new-search" >
+        <div class="imgs-1">
+            <img src="/statics/images/report.png" width="160px" alt="">
+            <img src="/statics/images/report.png" width="160px" alt="">
+        </div>
+        <div class="imgs-2">
+            <img src="/statics/images/homepage_download.png" width="350px" alt="">
+        </div>
+        <div class="favor-most">
+            <div class="favor-most-title">
+                <span>最热榜</span>
+            </div>
+            {% for favor in favor_most %}
+
+                <div class="favor-most-content">
+                <span class="favor-count">
+                {{ favor.praise_count }}
+                </span>
+                {{ favor.title }}
+                </div>
+            {% endfor %}
+        </div>
+
+    </div>
+    </div>
+
+    <div class="shadow hide"></div>
+     <div id="publishDialog" class="dialog hide">
+        <div class="dialog-title-bar">
+            <div class="dialog-title">
+                <span>分享新发现</span>
+            </div>
+            <div class="dialog-close" onclick="CloseDialog('#publishDialog');">X</div>
+        </div>
+        <div class="dialog-content">
+            <div class="tab-menu-box">
+                <div class="menu">
+                    <ul id="tab-menu-title">
+                        <li content-to="1" >链接</li>
+                        <li content-to="2" class="current">文字</li>
+                        <li content-to="3" >图片</li>
+                    </ul>
+                </div>
+
+                <div id="tab-menu-body" class="content">
+                    <div id="1" class="publish-content clearfix hide">
+                        <div class="tab-alt">添加链接</div>
+                        <div class="f1 clearfix">
+                            <div class="left"><input type="text"  name="url" /></div>
+                            <div class="right"><a href="javascript:void(0);">获取标题</a></div>
+                        </div>
+                        <div class="tab-alt">标题</div>
+                        <div class="f2">
+
+                            <input type="text" name="title" />
+                        </div>
+                        <div class="tab-alt">添加摘要（选填）</div>
+                        <div class="f2">
+                            <textarea name="content"></textarea>
+                        </div>
+                        <div class="f3">
+                            <span>发布到：</span>
+                            <div class="news-type" style="display: inline-block">
+                                <a value="1" class="active">42区</a>
+                                <a value="2" >段子</a>
+                                <a value="3" >图片</a>
+                                <a value="4" >挨踢1024</a>
+                                <a value="5" >你问我答</a>
+                            </div>
+                        </div>
+                        <div class="f4">
+                            <a class="submit right" id="submit_link">提交</a>
+                            <span class="error-msg right"></span>
+                        </div>
+                    </div>
+                    <div id="2"  class="publish-content clearfix ">
+                        <div class="f2">
+                            <textarea name="title"></textarea>
+                        </div>
+                        <div class="f3">
+
+                            <span>发布到：</span>
+                            <div class="news-type" style="display: inline-block">
+                                <a value="2" class="active">段子</a>
+                                <a value="5">你问我答</a>
+                            </div>
+                        </div>
+                        <div class="f4">
+                            <a class="submit right" id="submit_text">提交</a>
+                            <span class="error-msg right"></span>
+                        </div>
+                    </div>
+                    <div id="3" class="publish-content clearfix hide">
+                        <div class="tab-alt">添加图片</div>
+                        <div class="f5">
+                            <form style="display: inline-block" id="upload_img_form" name="form" action="/upload_image/" method="POST"  enctype="multipart/form-data" >
+                                <a id="fakeFile" class="fake-file">
+                                    <span>上传图片</span>
+                                    <input type="file" name="img" onchange="UploadImage(this);"/>
+                                    <input type="text" name="url" class="hide" />
+                                </a>
+                                <iframe id='upload_img_iframe' name='upload_img_iframe' src=""  class="hide"></iframe>
+                            </form>
+                            <a href="javascript:void(0);" class="re-upload hide" id="reUploadImage" onclick="ReUploadImage(this);">重新上传</a>
+                        </div>
+                        <div class="f2" style="margin-top: 8px">
+                            <textarea name="title" placeholder="请输入描述"></textarea>
+                        </div>
+                        <div class="f3">
+                            <span>发布到：</span>
+                            <div class="news-type" style="display: inline-block">
+                                <a value="3" class="active">图片</a>
+                                <a value="5">你问我答</a>
+                            </div>
+                        </div>
+                        <div class="f4">
+                            <a class="submit right" id="submit_img">提交</a>
+                            <span class="error-msg right"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="userInfo" class="user-info hide clearfix">
         <div id="model_login" class="login left">
             <div class="header">登陆</div>
             <div class="content">
@@ -130,12 +769,12 @@
                         <input name="user" type="text" placeholder="请输入用户名或邮箱">
                     </div>
                     <div class="inp">
-                        <input name="pwd" type="text" placeholder="请输入密码">
+                        <input name="pwd" type="password" placeholder="请输入密码">
                     </div>
                     <div class="inp clearfix">
                         <input name="code" class="check-code" type="text" placeholder="请输入验证码">
                         <span>
-                            <img class="check-img" src="/app01/check_code/" alt="验证码" onclick="ChangeCode(this);">
+                            <img id="check_img" class="check-img" src="/app01/check_code/" alt="验证码" onclick="ChangeCode(this);">
                         </span>
                     </div>
                     <div class="extra">
@@ -197,5 +836,6 @@
         </div>
         </div>
     </div>
+
 
 {% endblock %}

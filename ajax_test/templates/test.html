@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<button class="aaa" onclick="add(this)"></button>
+<script src="/statics/jquery-3.3.1.min.js"></script>
+<script>
+ $(function () {
+     bindadd()
+    var r = $.get( "/app01/test", function( data ) {
+        $( "body" ).append( "aaa" );
+    });
+    r.done(function () {
+        $("body").append("bbb");
+    })
+
+});
+function bindadd() {
+    $(".aaa").click(function () {
+
+    })
+}
+</script>
+</body>
+</html>

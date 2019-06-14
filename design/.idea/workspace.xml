@@ -1,7 +1,88 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="708cab3f-2e0d-405c-aa27-a6ade3b627c6" name="Default Changelist" comment="" />
+    <list default="true" id="708cab3f-2e0d-405c-aa27-a6ade3b627c6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../ajax_test/templates/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chouti_instance/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chouti_instance/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chouti_instance/app01/utils/page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chouti_instance/statics/CSS/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chouti_instance/statics/JS/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chouti_instance/statics/dependent/FileAPI/FileAPI.flash.camera.swf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chouti_instance/statics/dependent/FileAPI/FileAPI.flash.image.swf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chouti_instance/statics/dependent/FileAPI/FileAPI.flash.swf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chouti_instance/statics/dependent/FileAPI/FileAPI.html5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chouti_instance/statics/dependent/FileAPI/FileAPI.html5.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chouti_instance/statics/dependent/FileAPI/FileAPI.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chouti_instance/statics/dependent/FileAPI/jquery.fileapi.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chouti_instance/statics/dependent/Jcrop/Jcrop.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chouti_instance/statics/dependent/Jcrop/jquery.Jcrop.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chouti_instance/statics/dependent/Jcrop/jquery.Jcrop.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chouti_instance/statics/dist/Jquery.ImageCropUpload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chouti_instance/statics/images/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chouti_instance/statics/images/bottom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chouti_instance/statics/images/cent_secant_4_1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chouti_instance/statics/images/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chouti_instance/statics/images/icon_18_118.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chouti_instance/statics/images/loadinfo.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chouti_instance/statics/images/loading_32.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chouti_instance/statics/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chouti_instance/statics/images/pinglun.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chouti_instance/statics/images/pinglun_line.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chouti_instance/statics/images/pinglun_loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chouti_instance/statics/images/tip.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chouti_instance/templates/edit_info.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chouti_instance/templates/edit_user.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chouti_instance/templates/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app01/views/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_test/.idea/model_test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_test/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysite3/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test1/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ajax_test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ajax_test/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ajax_test/app01/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ajax_test/app01/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ajax_test/app01/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ajax_test/app01/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chouti/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chouti/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chouti_instance/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chouti_instance/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chouti_instance/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chouti_instance/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chouti_instance/.idea/dataSources/f4f07155-dec4-4110-aebc-0098e26ce6c5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chouti_instance/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chouti_instance/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chouti_instance/app01/dform.py" beforeDir="false" afterPath="$PROJECT_DIR$/../chouti_instance/app01/dform.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chouti_instance/app01/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../chouti_instance/app01/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chouti_instance/app01/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../chouti_instance/app01/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chouti_instance/app01/utils/message.py" beforeDir="false" afterPath="$PROJECT_DIR$/../chouti_instance/app01/utils/message.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chouti_instance/app01/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../chouti_instance/app01/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chouti_instance/chouti_instance/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../chouti_instance/chouti_instance/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chouti_instance/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/../chouti_instance/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chouti_instance/statics/CSS/commons.css" beforeDir="false" afterPath="$PROJECT_DIR$/../chouti_instance/statics/CSS/commons.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chouti_instance/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/../chouti_instance/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chouti_instance/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../chouti_instance/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chouti_instance/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/../chouti_instance/templates/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/acd26f9f-a647-40d0-88ac-2e2225c8e5ae.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/acd26f9f-a647-40d0-88ac-2e2225c8e5ae.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app01/dform.py" beforeDir="false" afterPath="$PROJECT_DIR$/app01/dform.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app01/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/app01/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app01/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/app01/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app01/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/app01/views/LR.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysite1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mysite1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysite2/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mysite2/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysite2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mysite2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysite3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mysite3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysite3/app01/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../mysite3/app01/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../test1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test1/app01/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../test1/app01/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test1/app01/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../test1/app01/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test1/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/../test1/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test1/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../test1/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test1/templates/upload.html" beforeDir="false" afterPath="$PROJECT_DIR$/../test1/templates/upload.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,20 +124,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app01/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="200">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app01/views.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app01/views/LR.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="935">
-              <caret line="66" column="18" selection-start-line="66" selection-start-column="18" selection-end-line="66" selection-end-column="18" />
+            <state relative-caret-position="479">
+              <caret line="80" selection-start-line="80" selection-end-line="80" />
               <folding>
                 <element signature="e#0#44#0" expanded="true" />
               </folding>
@@ -64,18 +142,72 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app01/dform.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
-              <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="32" />
+            <state relative-caret-position="104">
+              <caret line="9" column="64" selection-start-line="9" selection-start-column="64" selection-end-line="9" selection-end-column="64" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/acd26f9f-a647-40d0-88ac-2e2225c8e5ae/console.sql">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/app01/dform.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+              <folding>
+                <element signature="e#0#24#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://F:/python/Lib/site-packages/django/forms/forms.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4175">
+              <caret line="182" column="8" selection-start-line="182" selection-start-column="8" selection-end-line="182" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app01/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/test.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="25">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/edit.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="9" column="54" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="das://acd26f9f-a647-40d0-88ac-2e2225c8e5ae/schema/main/table/app01_user_evil">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true">
+                <filter text="" />
+              </filtering>
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -89,88 +221,55 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app01/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/register.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/login.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="12" column="43" selection-start-line="9" selection-start-column="4" selection-end-line="12" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/design/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="16" selection-start-line="16" selection-end-line="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>clean</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/design/urls.py" />
-        <option value="$PROJECT_DIR$/app01/models.py" />
-        <option value="$PROJECT_DIR$/app01/urls.py" />
-        <option value="$PROJECT_DIR$/app01/dform.py" />
         <option value="$PROJECT_DIR$/design/settings.py" />
-        <option value="$PROJECT_DIR$/templates/register.html" />
-        <option value="$PROJECT_DIR$/templates/login.html" />
-        <option value="$PROJECT_DIR$/templates/index.html" />
         <option value="$PROJECT_DIR$/app01/views.py" />
+        <option value="$PROJECT_DIR$/templates/login.html" />
+        <option value="$PROJECT_DIR$/templates/register.html" />
+        <option value="$PROJECT_DIR$/app01/dform.py" />
+        <option value="$PROJECT_DIR$/app01/urls.py" />
+        <option value="$PROJECT_DIR$/app01/models.py" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
+        <option value="$PROJECT_DIR$/app01/views/LR.py" />
+        <option value="$PROJECT_DIR$/templates/test.html" />
+        <option value="$PROJECT_DIR$/templates/index.html" />
+        <option value="$PROJECT_DIR$/templates/edit.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="705" />
-    <option name="y" value="302" />
-    <option name="width" value="1140" />
-    <option name="height" value="820" />
+    <option name="x" value="837" />
+    <option name="y" value="336" />
+    <option name="width" value="915" />
+    <option name="height" value="660" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -186,7 +285,8 @@
             <path>
               <item name="design" type="b2602c69:ProjectViewProjectNode" />
               <item name="design" type="462c0819:PsiDirectoryNode" />
-              <item name="design" type="462c0819:PsiDirectoryNode" />
+              <item name="app01" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="design" type="b2602c69:ProjectViewProjectNode" />
@@ -197,17 +297,24 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="sqlite" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../test1" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="configurable.group.build" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\django\design\app01\views" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -260,17 +367,20 @@
       <workItem from="1558229183021" duration="599000" />
       <workItem from="1558257055631" duration="1249000" />
       <workItem from="1558337835613" duration="429000" />
+      <workItem from="1558839123264" duration="19610000" />
+      <workItem from="1558922962848" duration="3955000" />
+      <workItem from="1558954330829" duration="2167000" />
+      <workItem from="1559476386377" duration="1679000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8543000" />
+    <option name="totallyTimeSpent" value="35954000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2660858" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13739946" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="DB Browser" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -286,14 +396,14 @@
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="DB Execution Console" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
-      <window_info anchor="bottom" id="Terminal" order="12" visible="true" weight="0.32956153" />
+      <window_info anchor="bottom" id="Terminal" order="12" visible="true" weight="0.42634562" />
       <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="Database" order="4" visible="true" weight="0.050938338" />
+      <window_info anchor="right" id="Database" order="4" visible="true" weight="0.14879356" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -310,18 +420,124 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app01/urls.py">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/acd26f9f-a647-40d0-88ac-2e2225c8e5ae/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="400">
+          <caret line="16" selection-start-line="16" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app01/views/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://F:/python/Lib/site-packages/django/forms/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
           <folding>
-            <element signature="e#0#28#0" expanded="true" />
+            <element signature="e#51#109#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/acd26f9f-a647-40d0-88ac-2e2225c8e5ae/console.sql">
+    <entry file="file://F:/python/Lib/site-packages/django/forms/fields.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="1175" column="8" selection-start-line="1175" selection-start-column="8" selection-end-line="1175" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="11" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/python/Lib/site-packages/django/db/models/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="963" column="8" selection-start-line="963" selection-start-column="8" selection-end-line="963" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/builtins.pyi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="631" selection-start-line="631" selection-end-line="631" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://acd26f9f-a647-40d0-88ac-2e2225c8e5ae/schema/main/table/auth_user">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true">
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://acd26f9f-a647-40d0-88ac-2e2225c8e5ae/schema/main/table/auth_group">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true">
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://acd26f9f-a647-40d0-88ac-2e2225c8e5ae/schema/main/table/app01_usertype">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true">
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://acd26f9f-a647-40d0-88ac-2e2225c8e5ae/schema/main/table/app01_evil">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true">
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app01/tests.py">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://F:/python/Lib/site-packages/django/forms/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4175">
+          <caret line="182" column="8" selection-start-line="182" selection-start-column="8" selection-end-line="182" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app01/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://acd26f9f-a647-40d0-88ac-2e2225c8e5ae/schema/main/table/app01_user_evil">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true">
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
     </entry>
     <entry file="das://acd26f9f-a647-40d0-88ac-2e2225c8e5ae/schema/main/table/app01_user">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
@@ -332,55 +548,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app01/models.py">
+    <entry file="file://$PROJECT_DIR$/app01/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
-          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/register.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" column="43" selection-start-line="9" selection-start-column="4" selection-end-line="12" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="16" selection-start-line="16" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app01/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="935">
-          <caret line="66" column="18" selection-start-line="66" selection-start-column="18" selection-end-line="66" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#44#0" expanded="true" />
-          </folding>
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app01/dform.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="9" column="64" selection-start-line="9" selection-start-column="64" selection-end-line="9" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/edit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="54" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/test.html">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
-          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="32" />
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app01/views/LR.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="479">
+          <caret line="80" selection-start-line="80" selection-end-line="80" />
+          <folding>
+            <element signature="e#0#44#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

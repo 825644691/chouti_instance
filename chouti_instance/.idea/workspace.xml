@@ -1,7 +1,91 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/templates/index.html" line="112" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="62e41c20-60ac-47dc-bfd4-37ddd5d0c2f5" name="Default Changelist" comment="" />
+    <list default="true" id="62e41c20-60ac-47dc-bfd4-37ddd5d0c2f5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../ajax_test/templates/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app01/utils/page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statics/CSS/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statics/JS/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statics/dependent/FileAPI/FileAPI.flash.camera.swf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statics/dependent/FileAPI/FileAPI.flash.image.swf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statics/dependent/FileAPI/FileAPI.flash.swf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statics/dependent/FileAPI/FileAPI.html5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statics/dependent/FileAPI/FileAPI.html5.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statics/dependent/FileAPI/FileAPI.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statics/dependent/FileAPI/jquery.fileapi.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statics/dependent/Jcrop/Jcrop.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statics/dependent/Jcrop/jquery.Jcrop.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statics/dependent/Jcrop/jquery.Jcrop.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statics/dist/Jquery.ImageCropUpload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statics/images/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statics/images/bottom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statics/images/cent_secant_4_1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statics/images/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statics/images/icon_18_118.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statics/images/loadinfo.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statics/images/loading_32.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statics/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statics/images/pinglun.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statics/images/pinglun_line.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statics/images/pinglun_loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statics/images/tip.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/edit_info.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/edit_user.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design/app01/views/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design/templates/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design/templates/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_test/.idea/model_test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_test/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysite3/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test1/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ajax_test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ajax_test/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ajax_test/app01/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ajax_test/app01/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ajax_test/app01/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ajax_test/app01/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chouti/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chouti/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f4f07155-dec4-4110-aebc-0098e26ce6c5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app01/dform.py" beforeDir="false" afterPath="$PROJECT_DIR$/app01/dform.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app01/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/app01/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app01/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/app01/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app01/utils/message.py" beforeDir="false" afterPath="$PROJECT_DIR$/app01/utils/message.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app01/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/app01/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chouti_instance/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/chouti_instance/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/statics/CSS/commons.css" beforeDir="false" afterPath="$PROJECT_DIR$/statics/CSS/commons.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../design/.idea/dataSources/acd26f9f-a647-40d0-88ac-2e2225c8e5ae.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../design/.idea/dataSources/acd26f9f-a647-40d0-88ac-2e2225c8e5ae.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../design/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../design/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../design/app01/dform.py" beforeDir="false" afterPath="$PROJECT_DIR$/../design/app01/dform.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../design/app01/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../design/app01/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../design/app01/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../design/app01/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../design/app01/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../design/app01/views/LR.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../design/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/../design/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../design/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../design/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../design/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/../design/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../design/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/../design/templates/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysite1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mysite1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysite2/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mysite2/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysite2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mysite2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysite3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mysite3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysite3/app01/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../mysite3/app01/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../test1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test1/app01/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../test1/app01/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test1/app01/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../test1/app01/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test1/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/../test1/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test1/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../test1/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test1/templates/upload.html" beforeDir="false" afterPath="$PROJECT_DIR$/../test1/templates/upload.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,13 +122,37 @@
     </expand>
     <select />
   </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2550">
-              <caret line="102" column="46" selection-start-line="102" selection-start-column="46" selection-end-line="102" selection-end-column="46" />
+            <state relative-caret-position="2950">
+              <caret line="118" column="26" selection-start-line="118" selection-start-column="26" selection-end-line="118" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="725">
+              <caret line="29" column="43" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app01/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="87">
+              <caret line="118" column="43" selection-start-line="118" selection-start-column="43" selection-end-line="118" selection-end-column="43" />
+              <folding>
+                <element signature="e#0#57#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -52,58 +160,64 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+            <state relative-caret-position="225">
+              <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app01/views.py">
+        <entry file="file://$PROJECT_DIR$/app01/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1825">
-              <caret line="79" column="25" selection-start-line="79" selection-start-column="25" selection-end-line="79" selection-end-column="25" />
-              <folding>
-                <element signature="e#0#48#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="1050">
+              <caret line="42" column="26" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app01/utils/check_code.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="18" column="63" selection-start-line="18" selection-start-column="63" selection-end-line="18" selection-end-column="63" />
+        <entry file="das://29b2543b-d460-4379-b4a4-2a74431fcf89/schema/main/table/app01_comment">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true">
+                <filter text="" />
+              </filtering>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app01/commons.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
+        <entry file="das://29b2543b-d460-4379-b4a4-2a74431fcf89/schema/main/table/app01_chouti">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true">
+                <filter text="" />
+              </filtering>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/edit_user.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/statics/CSS/commons.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="81" column="21" selection-start-line="71" selection-start-column="4" selection-end-line="81" selection-end-column="21" />
+            <state relative-caret-position="13625">
+              <caret line="545" column="49" selection-start-line="545" selection-start-column="49" selection-end-line="545" selection-end-column="49" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/register.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/statics/images/icon_18_118.png">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
     </leaf>
@@ -111,51 +225,91 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>font</find>
-      <find>error</find>
+      <find>summ</find>
+      <find>userPro-Box</find>
+      <find>发布中</find>
+      <find>加载中</find>
+      <find>comment-list</find>
+      <find>comment-</find>
+      <find>top-2</find>
+      <find>base</find>
+      <find>tb</find>
+      <find>hover</find>
+      <find>用户名</find>
+      <find>comment-te</find>
+      <find>lab</find>
+      <find>comment-user</find>
+      <find>Togg</find>
+      <find>抽屉</find>
+      <find>order_by</find>
+      <find>data</find>
+      <find>pg-header</find>
+      <find>= response</find>
+      <find>img</find>
+      <find>news</find>
+      <find>imagewidth</find>
+      <find>get</find>
+      <find>user</find>
+      <find>logout</find>
+      <find>objj</find>
+      <find>news-pic</find>
+      <find>bold</find>
+      <find>parent</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/chouti_instance/urls.py" />
-        <option value="$PROJECT_DIR$/templates/register.html" />
         <option value="$PROJECT_DIR$/templates/login.html" />
-        <option value="$PROJECT_DIR$/templates/base.html" />
-        <option value="$PROJECT_DIR$/chouti_instance/settings.py" />
         <option value="$PROJECT_DIR$/app01/commons.py" />
-        <option value="$PROJECT_DIR$/app01/utils/message.py" />
         <option value="$PROJECT_DIR$/app01/forms.py" />
         <option value="$PROJECT_DIR$/app01/utils/response.py" />
-        <option value="$PROJECT_DIR$/app01/models.py" />
-        <option value="$PROJECT_DIR$/app01/dform.py" />
-        <option value="$PROJECT_DIR$/app01/urls.py" />
         <option value="$PROJECT_DIR$/app01/utils/check_code.py" />
-        <option value="$PROJECT_DIR$/app01/views.py" />
-        <option value="$PROJECT_DIR$/templates/index.html" />
+        <option value="$PROJECT_DIR$/templates/register.html" />
+        <option value="$PROJECT_DIR$/app01/utils/page.py" />
+        <option value="$PROJECT_DIR$/templates/edit_user.html" />
+        <option value="$PROJECT_DIR$/chouti_instance/settings.py" />
+        <option value="$USER_HOME$/Desktop/image-crop-upload-master/demo/index.html" />
+        <option value="$PROJECT_DIR$/templates/test.html" />
+        <option value="$PROJECT_DIR$/app01/utils/message.py" />
+        <option value="$PROJECT_DIR$/statics/dist/Jquery.ImageCropUpload.js" />
+        <option value="$PROJECT_DIR$/app01/dform.py" />
+        <option value="$PROJECT_DIR$/templates/edit_info.html" />
         <option value="$PROJECT_DIR$/statics/CSS/commons.css" />
+        <option value="$PROJECT_DIR$/app01/urls.py" />
+        <option value="$PROJECT_DIR$/app01/models.py" />
+        <option value="$PROJECT_DIR$/templates/index.html" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
+        <option value="$PROJECT_DIR$/templates/base.html" />
+        <option value="$PROJECT_DIR$/app01/views.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-493" />
-    <option name="y" value="13" />
-    <option name="width" value="1868" />
-    <option name="height" value="870" />
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="915" />
+    <option name="height" value="660" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -173,11 +327,6 @@
               <item name="chouti_instance" type="462c0819:PsiDirectoryNode" />
               <item name="app01" type="462c0819:PsiDirectoryNode" />
               <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="chouti_instance" type="b2602c69:ProjectViewProjectNode" />
-              <item name="chouti_instance" type="462c0819:PsiDirectoryNode" />
-              <item name="chouti_instance" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="chouti_instance" type="b2602c69:ProjectViewProjectNode" />
@@ -203,25 +352,27 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="sqlite" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../chouti" />
+    <property name="last_opened_file_path" value="F:/old boy" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\django\chouti_instance\app01\utils" />
       <recent name="E:\django\chouti_instance\statics\JS" />
-      <recent name="E:\django\chouti_instance\statics\images" />
+      <recent name="E:\django\chouti_instance\statics" />
+      <recent name="E:\django\chouti_instance\templates" />
+      <recent name="E:\django\chouti_instance\statics\CSS" />
+      <recent name="E:\django\chouti_instance\app01\utils" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -347,23 +498,82 @@
       <workItem from="1558229944249" duration="21780000" />
       <workItem from="1558274563966" duration="5676000" />
       <workItem from="1558320040374" duration="25345000" />
-      <workItem from="1558400245356" duration="599000" />
+      <workItem from="1558400245356" duration="1217000" />
+      <workItem from="1558490101978" duration="30810000" />
+      <workItem from="1558595435440" duration="7275000" />
+      <workItem from="1558602817834" duration="8219000" />
+      <workItem from="1558660024797" duration="7979000" />
+      <workItem from="1558682473959" duration="9628000" />
+      <workItem from="1558755047113" duration="1873000" />
+      <workItem from="1558838759547" duration="3820000" />
+      <workItem from="1558923454016" duration="10662000" />
+      <workItem from="1558949006209" duration="605000" />
+      <workItem from="1558954412581" duration="3169000" />
+      <workItem from="1559005154782" duration="16041000" />
+      <workItem from="1559091883939" duration="31295000" />
+      <workItem from="1559136791904" duration="2864000" />
+      <workItem from="1559180597054" duration="1661000" />
+      <workItem from="1559262894841" duration="11700000" />
+      <workItem from="1559303703346" duration="1133000" />
+      <workItem from="1559354906864" duration="5344000" />
+      <workItem from="1559374329946" duration="11414000" />
+      <workItem from="1559435087880" duration="4656000" />
+      <workItem from="1559442709728" duration="28552000" />
+      <workItem from="1559485240766" duration="711000" />
+      <workItem from="1559527691505" duration="16938000" />
+      <workItem from="1559611007037" duration="5539000" />
+      <workItem from="1559617803108" duration="5158000" />
+      <workItem from="1559696626656" duration="18678000" />
+      <workItem from="1559782534459" duration="599000" />
+      <workItem from="1559968276584" duration="157000" />
+      <workItem from="1560043141455" duration="9159000" />
+      <workItem from="1560129331995" duration="7583000" />
+      <workItem from="1560215407517" duration="2247000" />
+      <workItem from="1560253796486" duration="599000" />
+      <workItem from="1560303141472" duration="1414000" />
+      <workItem from="1560388612618" duration="599000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53400000" />
+    <option name="totallyTimeSpent" value="322099000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49444443" visible="true" weight="0.33646113" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49118388" visible="true" weight="0.02010724" />
+      <window_info id="Structure" order="1" sideWeight="0.5088161" side_tool="true" weight="0.24283667" />
+      <window_info id="DB Browser" order="2" weight="0.32908848" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.44759208" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.28717202" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="DB Execution Console" order="9" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50053304" side_tool="true" weight="0.24728851" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.3286119" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="13" sideWeight="0.49946696" visible="true" weight="0.06657224" />
+      <window_info anchor="bottom" id="Database Console" order="14" weight="0.32944608" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.3297587" />
+      <window_info anchor="right" id="Database" order="4" visible="true" weight="0.04758713" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49444443" visible="true" weight="0.1769437" />
       <window_info id="Structure" order="1" sideWeight="0.50555557" side_tool="true" weight="0.61782664" />
       <window_info id="DB Browser" order="2" weight="0.32908848" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.28854313" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.28717202" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -371,42 +581,16 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="DB Execution Console" order="9" />
-      <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.2446959" />
-      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="13" />
-      <window_info anchor="bottom" id="Database Console" order="14" weight="0.32956153" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32944608" />
+      <window_info anchor="bottom" id="Terminal" order="13" visible="true" weight="0.22379604" />
+      <window_info anchor="bottom" id="Database Console" order="14" weight="0.32944608" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="Database" order="4" weight="0.5982906" />
-    </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49444443" weight="0.33455434" />
-      <window_info id="Structure" order="1" sideWeight="0.50555557" side_tool="true" weight="0.61782664" />
-      <window_info id="DB Browser" order="2" weight="0.32967034" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.28854313" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="DB Execution Console" order="9" />
-      <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3061947" />
-      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="13" />
-      <window_info anchor="bottom" id="Database Console" order="14" weight="0.32956153" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="Database" order="4" weight="0.32908848" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.3297587" />
+      <window_info anchor="right" id="Database" order="4" weight="0.3538874" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -420,6 +604,16 @@
           <line>4</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="django-line">
+          <url>file://$PROJECT_DIR$/templates/index.html</url>
+          <line>2</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="django-line">
+          <url>file://$PROJECT_DIR$/templates/index.html</url>
+          <line>499</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -429,46 +623,27 @@
     <SUITE FILE_PATH="coverage/chouti_instance$commons.coverage" NAME="commons Coverage Results" MODIFIED="1558327906543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app01" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/manage.py">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/statics/images/Cog.jpg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/statics/JS/jquery-3.3.1.min.js">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/statics/images/report.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/chouti_instance/settings.py">
+    <entry file="file://$PROJECT_DIR$/statics/images/homepage_download.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app01/utils/check_code.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1150">
-          <caret line="46" column="5" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+        <state relative-caret-position="425">
+          <caret line="18" column="63" selection-start-line="18" selection-start-column="63" selection-end-line="18" selection-end-column="63" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/base.html">
+    <entry file="das://29b2543b-d460-4379-b4a4-2a74431fcf89/schema/main/table/app01_chouti_dg_tmp" />
+    <entry file="file://F:/python/Lib/site-packages/django/db/models/base.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="48" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/2and3/datetime.pyi">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3375">
-          <caret line="140" column="12" selection-start-line="140" selection-start-column="12" selection-end-line="140" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/f4f07155-dec4-4110-aebc-0098e26ce6c5/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app01/apps.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app01/utils/message.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="22550">
+          <caret line="935" column="102" selection-start-line="935" selection-start-column="94" selection-end-line="935" selection-end-column="102" />
         </state>
       </provider>
     </entry>
@@ -479,113 +654,251 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app01/models.py">
+    <entry file="file://$PROJECT_DIR$/app01/utils/page.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+        <state relative-caret-position="365">
+          <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="das://f4f07155-dec4-4110-aebc-0098e26ce6c5/schema/main/table/app01_sendmsg">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true">
-            <filter text="" />
-          </filtering>
+    <entry file="file://$PROJECT_DIR$/statics/images/full/8fd7b3dfc34dfc899164ab9a2a33789455a70be8.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/statics/images/华尔街见闻.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/statics/images/report_children.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/statics/images/pinglun_loading.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/statics/images/logo.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/statics/images/icon.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/block.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6200">
+          <caret line="248" column="16" selection-start-line="248" selection-start-column="16" selection-end-line="248" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="das://f4f07155-dec4-4110-aebc-0098e26ce6c5/schema/main/table/app01_userinfo">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true">
-            <filter text="" />
-          </filtering>
+    <entry file="file://$PROJECT_DIR$/app01/utils/message.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/statics/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chouti_instance/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="472">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/statics/upload/14688285301178.png" />
+    <entry file="file://$PROJECT_DIR$/statics/images/这你怎么看.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/statics/images/loading_32.gif">
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/chouti_instance/urls.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chouti_instance/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="das://29b2543b-d460-4379-b4a4-2a74431fcf89/schema/main/table/app01_sendmsg">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true">
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/statics/dist/Jquery.ImageCropUpload.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
-          <folding>
-            <element signature="e#639#671#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="345">
+          <caret line="186" column="26" selection-start-line="186" selection-start-column="16" selection-end-line="186" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="48" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app01/dform.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="24" column="59" selection-start-line="24" selection-start-column="59" selection-end-line="24" selection-end-column="59" />
+        <state relative-caret-position="500">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
           <folding>
             <element signature="e#0#24#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app01/tests.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/statics/upload/落尽红樱君不见.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/image-crop-upload-master/demo/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="30" column="8" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="30" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/statics/CSS/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/statics/JS/bootstrap.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/statics/images/1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/statics/upload/aa.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/statics/images/image48.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="das://29b2543b-d460-4379-b4a4-2a74431fcf89/schema/main/table/app01_userinfo">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true">
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://29b2543b-d460-4379-b4a4-2a74431fcf89/schema/main/table/app01_favor">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true">
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app01/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+        <state relative-caret-position="425">
+          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chouti_instance/wsgi.py">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/app01/commons.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/edit_info.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3200">
+          <caret line="128" selection-start-line="128" selection-end-line="128" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2550">
-          <caret line="102" column="46" selection-start-line="102" selection-start-column="46" selection-end-line="102" selection-end-column="46" />
+        <state relative-caret-position="2950">
+          <caret line="118" column="26" selection-start-line="118" selection-start-column="26" selection-end-line="118" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="725">
+          <caret line="29" column="43" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+        <state relative-caret-position="225">
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app01/views.py">
+    <entry file="file://$PROJECT_DIR$/app01/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1825">
-          <caret line="79" column="25" selection-start-line="79" selection-start-column="25" selection-end-line="79" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#48#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="1050">
+          <caret line="42" column="26" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app01/utils/check_code.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="18" column="63" selection-start-line="18" selection-start-column="63" selection-end-line="18" selection-end-column="63" />
+    <entry file="das://29b2543b-d460-4379-b4a4-2a74431fcf89/schema/main/table/app01_comment">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true">
+            <filter text="" />
+          </filtering>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app01/commons.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
+    <entry file="das://29b2543b-d460-4379-b4a4-2a74431fcf89/schema/main/table/app01_chouti">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true">
+            <filter text="" />
+          </filtering>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/register.html">
+    <entry file="file://$PROJECT_DIR$/templates/edit_user.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+        <state relative-caret-position="200">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/statics/CSS/commons.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="81" column="21" selection-start-line="71" selection-start-column="4" selection-end-line="81" selection-end-column="21" />
+        <state relative-caret-position="13625">
+          <caret line="545" column="49" selection-start-line="545" selection-start-column="49" selection-end-line="545" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/statics/images/icon_18_118.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app01/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="118" column="43" selection-start-line="118" selection-start-column="43" selection-end-line="118" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#57#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

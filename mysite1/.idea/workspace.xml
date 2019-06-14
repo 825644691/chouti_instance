@@ -4,7 +4,88 @@
     <bookmark url="file://$PROJECT_DIR$/blog/views.py" line="30" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="94b9521d-3ec0-4147-bf9b-e4a7009dd0c7" name="Default" comment="" />
+    <list default="true" id="94b9521d-3ec0-4147-bf9b-e4a7009dd0c7" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/../ajax_test/templates/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chouti_instance/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chouti_instance/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chouti_instance/app01/utils/page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chouti_instance/statics/CSS/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chouti_instance/statics/JS/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chouti_instance/statics/dependent/FileAPI/FileAPI.flash.camera.swf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chouti_instance/statics/dependent/FileAPI/FileAPI.flash.image.swf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chouti_instance/statics/dependent/FileAPI/FileAPI.flash.swf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chouti_instance/statics/dependent/FileAPI/FileAPI.html5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chouti_instance/statics/dependent/FileAPI/FileAPI.html5.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chouti_instance/statics/dependent/FileAPI/FileAPI.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chouti_instance/statics/dependent/FileAPI/jquery.fileapi.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chouti_instance/statics/dependent/Jcrop/Jcrop.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chouti_instance/statics/dependent/Jcrop/jquery.Jcrop.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chouti_instance/statics/dependent/Jcrop/jquery.Jcrop.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chouti_instance/statics/dist/Jquery.ImageCropUpload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chouti_instance/statics/images/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chouti_instance/statics/images/bottom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chouti_instance/statics/images/cent_secant_4_1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chouti_instance/statics/images/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chouti_instance/statics/images/icon_18_118.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chouti_instance/statics/images/loadinfo.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chouti_instance/statics/images/loading_32.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chouti_instance/statics/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chouti_instance/statics/images/pinglun.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chouti_instance/statics/images/pinglun_line.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chouti_instance/statics/images/pinglun_loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chouti_instance/statics/images/tip.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chouti_instance/templates/edit_info.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chouti_instance/templates/edit_user.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chouti_instance/templates/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design/app01/views/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design/templates/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design/templates/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_test/.idea/model_test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_test/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysite3/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test1/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ajax_test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ajax_test/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ajax_test/app01/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ajax_test/app01/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ajax_test/app01/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ajax_test/app01/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chouti/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chouti/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chouti_instance/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chouti_instance/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chouti_instance/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chouti_instance/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chouti_instance/.idea/dataSources/f4f07155-dec4-4110-aebc-0098e26ce6c5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chouti_instance/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chouti_instance/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chouti_instance/app01/dform.py" beforeDir="false" afterPath="$PROJECT_DIR$/../chouti_instance/app01/dform.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chouti_instance/app01/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../chouti_instance/app01/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chouti_instance/app01/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../chouti_instance/app01/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chouti_instance/app01/utils/message.py" beforeDir="false" afterPath="$PROJECT_DIR$/../chouti_instance/app01/utils/message.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chouti_instance/app01/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../chouti_instance/app01/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chouti_instance/chouti_instance/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../chouti_instance/chouti_instance/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chouti_instance/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/../chouti_instance/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chouti_instance/statics/CSS/commons.css" beforeDir="false" afterPath="$PROJECT_DIR$/../chouti_instance/statics/CSS/commons.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chouti_instance/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/../chouti_instance/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chouti_instance/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../chouti_instance/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chouti_instance/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/../chouti_instance/templates/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../design/.idea/dataSources/acd26f9f-a647-40d0-88ac-2e2225c8e5ae.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../design/.idea/dataSources/acd26f9f-a647-40d0-88ac-2e2225c8e5ae.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../design/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../design/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../design/app01/dform.py" beforeDir="false" afterPath="$PROJECT_DIR$/../design/app01/dform.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../design/app01/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../design/app01/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../design/app01/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../design/app01/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../design/app01/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../design/app01/views/LR.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../design/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/../design/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../design/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../design/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../design/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/../design/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../design/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/../design/templates/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysite2/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mysite2/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysite2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mysite2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysite3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mysite3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysite3/app01/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../mysite3/app01/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../test1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test1/app01/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../test1/app01/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test1/app01/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../test1/app01/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test1/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/../test1/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test1/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../test1/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test1/templates/upload.html" beforeDir="false" afterPath="$PROJECT_DIR$/../test1/templates/upload.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,34 +128,31 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/cur_time.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/cur_t.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/blog/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1800">
-              <caret line="74" selection-start-line="74" selection-end-line="74" />
+            <state relative-caret-position="200">
+              <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
               <folding>
                 <element signature="e#0#58#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mysite1/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
-              <folding>
-                <element signature="e#631#663#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/login.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -91,7 +169,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/userInfo.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="175">
@@ -144,6 +222,9 @@
       <find>csrf</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -163,11 +244,12 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-224" />
-    <option name="y" value="517" />
-    <option name="width" value="1423" />
+    <option name="x" value="-225" />
+    <option name="y" value="515" />
+    <option name="width" value="1425" />
     <option name="height" value="1030" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -210,6 +292,7 @@
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="sqlite" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="database.console.LAST_STATE" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../test1" />
@@ -327,16 +410,18 @@
       <workItem from="1557974161093" duration="1259000" />
       <workItem from="1558055573855" duration="884000" />
       <workItem from="1558069036167" duration="30000" />
+      <workItem from="1558945826795" duration="15000" />
+      <workItem from="1559968374913" duration="29000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60682000" />
+    <option name="totallyTimeSpent" value="60726000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4986226" visible="true" weight="0.22520107" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4986226" visible="true" weight="0.23123324" />
       <window_info id="Structure" order="1" sideWeight="0.5013774" side_tool="true" weight="0.24909091" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
@@ -348,8 +433,8 @@
       <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="8" />
-      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.43281472" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.43342775" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32956153" />
       <window_info anchor="bottom" id="DB Execution Console" order="13" />
@@ -466,20 +551,6 @@
     <entry file="file://$PROJECT_DIR$/blog/admin.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/cur_t.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/cur_time.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/statics/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -490,12 +561,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/views.py">
+    <entry file="file://$PROJECT_DIR$/mysite1/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1800">
-          <caret line="74" selection-start-line="74" selection-end-line="74" />
+        <state relative-caret-position="650">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
           <folding>
-            <element signature="e#0#58#0" expanded="true" />
+            <element signature="e#631#663#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -507,6 +578,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/templates/cur_time.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/blog/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -514,6 +592,13 @@
           <folding>
             <element signature="e#1#47#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/userInfo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -536,20 +621,20 @@
     <entry file="file://$PROJECT_DIR$/statics/bootstrap.min.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysite1/urls.py">
+    <entry file="file://$PROJECT_DIR$/templates/cur_t.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-          <folding>
-            <element signature="e#631#663#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="75">
+          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/userInfo.html">
+    <entry file="file://$PROJECT_DIR$/blog/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+        <state relative-caret-position="200">
+          <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#58#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

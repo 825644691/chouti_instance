@@ -6,10 +6,19 @@
     <script src="/static/jquery-3.3.1.min.js"></script>
     <script src="/static/jquery.cookie.js"></script>
     <script>
-        $.cookie()
-        //一个参数 ,$.cookie(k) 获取值
-        //两个参数, $.cookie(k,v) 设置值
-        //两个以上参数,$.cookie(k,v,{}),在括号中写
+        {#$.cookie()#}
+        {#//一个参数 ,$.cookie(k) 获取值#}
+        {#//两个参数, $.cookie(k,v) 设置值#}
+        {#//两个以上参数,$.cookie(k,v,{}),在括号中写#}
+               $(function () {
+    var r = $.get( "/app01/test", function( data ) {
+        $( "body" ).append( "aaa" );
+    });
+    r.done(function () {
+        $("body").append("bbb");
+    })
+    
+});
     </script>
 </head>
 <body>

@@ -41,3 +41,13 @@ def JQ_receive(req):
 # True => true
 # False => false
 # None  => null
+
+
+def test(req):
+    if req.method == "POST":
+        return HttpResponse("1")
+    return render(req, "test.html")
+
+
+def test1(req):
+    return HttpResponse("ok")

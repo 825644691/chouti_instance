@@ -19,6 +19,7 @@ class UserForm(forms.Form):
     email_code = forms.CharField(min_length=4)
 
 
+
 class LoginForm(forms.Form):
     user = forms.CharField(error_messages={"required": "账号不能为空"})
     pwd = forms.CharField(error_messages={"required": "密码不能为空"})

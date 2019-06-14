@@ -1,0 +1,132 @@
+{% extends "base.html" %}
+{% block css %}
+
+    <meta charset="UTF-8">
+    <meta name="Generator" content="EditPlus®">
+    <meta name="Author" content="">
+    <meta name="Keywords" content="">
+    <meta name="Description" content="">
+    <link rel="stylesheet" href="/statics/CSS/bootstrap.min.css">
+    <script src="/statics/JS/bootstrap.js"></script>
+    <script type="text/javascript" src="/statics/JS/jquery-3.3.1.min.js"></script>
+
+    <script type="text/javascript" src="/statics/dependent/FileAPI/FileAPI.min.js"></script>
+    <script type="text/javascript" src="/statics/dependent/Jcrop/jquery.Jcrop.min.js"></script>
+    <link rel="stylesheet" href="/statics/dependent/Jcrop/jquery.Jcrop.min.css" />
+
+    <script type="text/javascript" src="/statics/dist/Jquery.ImageCropUpload.js"></script>
+    <title>演示</title>
+
+
+{% endblock %}
+{% block body %}
+<div style="width: 900px;margin: 0 160px;">
+    <ul id="myTab" class="nav nav-tabs">
+        <li class="active"><a href="#home" data-toggle="tab">账号设置</a></li>
+        <li><a href="#ios" data-toggle="tab">通知设置</a></li>
+        <li><a href="#ios" data-toggle="tab">绑定手机</a></li>
+    </ul>
+    <div id="myTabContent" class="tab-content">
+        <div class="tab-pane fade in active" id="home">
+{#  账号设置         #}
+        <form class="form-horizontal" role="form">
+        <div class="form-group">
+        <label for="firstname" style="margin-top:30px;" class="col-sm-2 control-label">昵称</label>
+        <div class="col-sm-10">
+          <input type="text" style="margin-top:30px;width: 20%;" class="form-control" id="secondname" name="secondoutname" placeholder="请输入昵称" value="{{ objjj.secondname }}">
+        </div>
+        </div>
+
+        <div class="form-group">
+        <label for="firstname" style="margin-top:30px;" class="col-sm-2 control-label">头像</label>
+        <div class="col-sm-10">
+          <div id="fileapi">
+                <img id="i" src="/{{ objjj.img }}" width="100px" height="100px" alt="">
+            </div>
+        </div>
+        </div>
+            <div class="form-group">
+                <label for="gender" class="col-sm-2 control-label">性别</label>
+                {% if objjj.gender == "option1" %}
+                <label class="radio-inline">
+                    <input type="radio" name="optionsGender" id="optionsRadios3" value="option1" checked> 男
+                </label>
+                <label class="radio-inline">
+                    <input type="radio" name="optionsGender" id="optionsRadios4"  value="option2" > 女
+                </label>
+                {% else %}
+                <label class="radio-inline">
+                    <input type="radio" name="optionsGender" id="optionsRadios3" value="option1" > 男
+                </label>
+                <label class="radio-inline">
+                    <input type="radio" name="optionsGender" id="optionsRadios4"  value="option2" checked> 女
+                </label>
+                {% endif %}
+            </div>
+            <div class="form-group">
+                <label for="gender" style="padding-top: 30px" class="col-sm-2 control-label">签名</label>
+                <textarea style="width: 20%" rows="4" class="form-control" id="signature" name="signature" placeholder="请输入您的个性签名">{{ objjj.signature }}</textarea>
+            </div>
+    <div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+      <button type="button" class="btn btn-default" onclick="submitEvent()">提交</button>
+    </div>
+  </div>
+</form>
+
+
+
+
+
+
+
+
+        </div>
+        <div class="tab-pane fade" id="ios">
+            <p>iOS 是一个由苹果公司开发和发布的手机操作系统。最初是于 2007 年首次发布 iPhone、iPod Touch 和 Apple
+                TV。iOS 派生自 OS X，它们共享 Darwin 基础。OS X 操作系统是用在苹果电脑上，iOS 是苹果的移动版本。</p>
+        </div>
+
+    </div>
+    {#图片预览上传#}
+{#    <div id="fileapi1" style="background-color:#ccc;height:100px;border-radius:5px;text-align:center;line-height:100px;width:50%">上传，裁剪300*300</div>#}
+{#    <div id="images"></div>#}
+{#    <button onclick="submitEvent()">修改</button>#}
+</div>
+{% endblock %}
+{% block js %}
+<script>
+
+function submitEvent(){
+    let dic = new FormData();
+    var canvas = $(document.getElementById("fileapi")).children(":eq(1)");
+    var img = canvas[0].toDataURL();
+    var secondname = $("#secondname").val();
+    var gender = $("input:radio[name='optionsGender']").val();
+    var signature = $("#signature").val();
+
+    dic.append("fafafa",img);
+    $.ajax({
+        url: "/app01/info/",
+        type: "post",
+        data: {img:img, secondname:secondname, gender:gender, signature:signature},
+        success: function (data) {
+            location.href = "/app01/index"
+
+        }
+    })
+}
+$(function () {
+    $("#fileapi").ImageCropUpload({
+    imagewidth:100,
+    imageheight:100,
+    cropcomplete:function(img,opt){
+        $("#i").remove();
+        $("#fileapi").append(img);
+    }
+});
+})
+
+</script>
+
+{% endblock %}

@@ -16,7 +16,8 @@ urlpatterns = [
     path('tag_delete/', views.tag_delete),
     re_path(r'^edit_teacher-(\d+)/$', views.edit_teacher),
     re_path(r'^edit_teacher-(\d+)/?p=(\d+)$', views.edit_teacher),
-    path('upload/',views.upload)
+    path('upload/',views.upload),
+    path('test/', views.test)
 
 
 ]

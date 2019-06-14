@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+{% block js %}
+    <script>
+    function test() {
+       var day = getOffsetDays({{ time1 }},{{ time2 }});
+       $(".a").text(day);
+       alert(new Date().getTime())
+
+
+
+    }
+    function getOffsetDays(time1,time2) {
+        var offsetTime = time1 - time2;
+        var day = Math.floor(offsetTime/86400);
+        var remain = offsetTime%86400;
+        var hour = Math.floor(remain/3600);
+        remain = remain%3600;
+        var mins = Math.floor(remain/60);
+        if(day != null){
+            return day + "天前"
+        }else{
+            if(hour == null){
+                return mins + "分钟"
+            }else{
+                return hour + "天数" + mins + "分钟"
+            }
+        }
+
+
+
+    }
+    function fomatFloat(src,pos){
+             return Math.round(src*Math.pow(10, pos))/Math.pow(10, pos);
+}
+    </script>
+{% endblock %}
+{% block body %}
+    <a class="test" onclick="test();">asdasd</a>
+    <span class="a">
+        <script>
+            $(function () {
+                getOffsetDays({{ time1 }},{{ time2 }})
+            })
+
+        </script>
+    </span>
+{% endblock %}
+

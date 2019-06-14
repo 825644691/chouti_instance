@@ -3,6 +3,7 @@ import datetime
 from app01 import models
 from django.db.models import Avg, Min, Sum, Max, F, Q
 # Create your views here.
+from django.db.models import Count
 
 
 
@@ -116,9 +117,12 @@ def book_test(req):
     # __startswith=("") endswith("") 以什么开头，以什么结尾
 
     # 关联表查询(不同表的内容联合查询)
-    objs = models.Author.objects.all()
-    for obj in objs:
-        print(obj.name, obj.book__title)
+    # objs = models.Book.objects.all().select_related("publisher")
+    # for obj in objs:
+    #     print(obj.publisher.name)
+    obj = models.Book.objects.aggregate(n=Count("id"))
+    print(obj)
+
     return HttpResponse("ok")
 
     # objs = models.Author.objects.values("name", "book__title")

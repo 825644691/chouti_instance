@@ -1,17 +1,117 @@
+
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html>
+<head lang="en">
     <meta charset="UTF-8">
-    <title>抽屉热榜</title>
-    <link rel="stylesheet" href="/statics/CSS/commons.css">
+    <title>抽屉新热榜</title>
+    <link rel="stylesheet" href="/statics/CSS/commons.css" />
+
     <script src="/statics/JS/jquery-3.3.1.min.js"></script>
+    {% block css %} {% endblock %}
     {% block js %}
 
     {% endblock %}
 </head>
 <body>
-{% block body %}
+    <div class="pg-header">
+        <div class="w">
+            <a class="logo" href="/"></a>
+            <div class="act-menu" id="{{ region }}">
 
-{% endblock %}
+                <a href="/app01/index" class="tb">全部</a>
+                <a href="/app01/index?key=42区" class="tb">42区</a>
+                <a href="/app01/index?key=段子" class="tb">段子</a>
+                <a href="/app01/index?key=图片" class="tb">图片</a>
+                <a href="/app01/index?key=挨踢1024" class="tb">挨踢1024</a>
+                <a href="/app01/index?key=你问我答" class="tb">你问我答</a>
+            </div>
+            <div class="key-sera">
+
+                <form action="/app01/index/" method="post" name="searchFrm2" id="searchFrm2">
+                    <input type="text" class="search-txt-s" name="keyword" id="txtSearch2" autocomplete="off">
+
+                    <a href="javascript:;" class="i" name="searchBtn_2" id="searchBtn_3"><span class="ico"></span></a>
+                    <input type="hidden" value="1" id="page" name="page">
+                </form>
+
+		    </div>
+
+            {% if request.session.is_login %}
+                <div id="action_nav" is-login="true" class="action-nav">
+                    <a href="/show/flow/1" style="float:left;position:relative;" id="btnDtaiShw">动态
+                        <b class="notice-num-title" id="Dtai-num-title" style="right: 3px; display: none;">
+                            <em id="Dtai-em"></em>
+                        </b>
+                    </a>
+                    <a href="javascript:;" id="btnNotShw" class="notice-box">通知
+                        <b class="notice-num-title" id="notice-num-title" style="display: none;">
+                            <em id="notice-em"></em>
+                            <i>+</i>
+                        </b>
+                    </a>
+                    <a href="/app01/info" id="loginUserNc" class="userPro-Box">
+
+                        <img src="/{{ objjj.img }}" id="userProImg">
+                        {% if request.session.secondname != null %}
+                        <span class="u-nick" id="userProNick">{{ request.session.secondname}}</span>
+                        <em id="userProArr"></em>
+                        {% else %}
+                        <span class="u-nick" id="userProNick">{{ request.session.username}}</span>
+                        <em id="userProArr"></em>
+                        {% endif %}
+                    </a>
+                </div>
+                <div class="user-opr-box" id="userOprBox" style="left: 869px; display: none;">
+                    <a href="/user/link/saved/1" style="border-top:0;">我的新热榜</a>
+                    <a href="/app01/info">设置</a>
+                    <a class="logout" href="/app01/logout/">退出</a>
+                    <a href="http://www.chouti.com/c_45792645155" target="_blank" class="ie6-a">我的收藏</a>
+                </div>
+
+            {% else %}
+                <div id="action_nav" is-login="false" class="action-nav">
+                    <a href="javascript:void(0);" class="login-btn-a" id="reg_link_a">注册</a>
+                    <a href="javascript:void(0);" class="login-btn-a" id="login_link_a">登录</a>
+                </div>
+            {% endif %}
+
+
+        </div>
+
+    </div>
+
+    <div class="pg-body">
+
+        {% block body %} {% endblock %}
+
+    </div>
+
+
+
+
+    {% block javascript %} {% endblock %}
+    <script>
+        $(function(){
+            var region = $(".act-menu").attr("id");
+            if (region){
+                $.each($(".act-menu a"),function () {
+                    if($(this).text() == region){
+                        $(this).addClass("active").siblings().removeClass("active")
+                    }
+                })
+            }else{
+                $(".act-menu").children(":eq(0)").addClass("active")
+            }
+
+
+            $('#loginUserNc,#userOprBox').mouseover(function(){
+                $('#userOprBox').css('display', 'block');
+                $('#loginUserNc').addClass('active');
+            }).mouseout(function () {
+                $('#userOprBox').css('display', 'none');
+                $('#loginUserNc').removeClass('active');
+            })
+        })
+    </script>
 </body>
 </html>

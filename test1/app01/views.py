@@ -136,6 +136,7 @@ def handle_teacher(req):
             }
     # for obj in objs:
     #     print(obj.name, obj.classes_set.values("caption"))
+    print(result)
     username = req.session.get("username")
     return render(req, "teacher.html", {"username": username, "teacher_list": result,"pager":pager})
 
@@ -210,7 +211,7 @@ def upload(req):
         user = req.POST.get("user")
         fafafa = req.POST.get("fafafa")
         obj = req.FILES.get("fafafa")
-        print(obj.name, obj.size)
+        print(obj.name, obj.size, )
         file_path = os.path.join('statics', 'upload', obj.name)
         f = open(file_path, 'wb')
         for chunk in obj.chunks():
@@ -232,3 +233,7 @@ def upload1(req):
     f.close()
     models.File.objects.create(name=obj.name, path=file_path)
     return HttpResponse(json.dumps(file_path))
+
+
+def test(req):
+    return HttpResponse("I")
