@@ -1,0 +1,40 @@
+#ajax
+#创建核心对象:XMLHttpRequest()
+#使用核心对象打开与服务器的连接 open()
+#发送请求 send()
+#注册监听，监听服务器响应 onreadystatechange()
+
+#j
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript">
+        window.onload = function () { //当html加载完成的时候执行本函数
+            var form = document.getElementById("form1");
+            form.onsubmit = function () { //给元素添加一个监听，监听表单被提交的事件
+            var username = form.username.value;
+            if(!username){
+                var usernameSpan = document.getElementById("usernameSpan")
+                usernameSpan.innerText = "用户名不能为空！" //设置span元素内容
+                return false; //返回False,标是拦截了表单提交动作
+            }
+            return true; //不拦截表单提交动作
+            };
+        };
+    </script>
+</head>
+<body>
+<h1>注册页面</h1>
+<form action="" method="post" id="form1">
+    用户名<input type="text" name="username">
+    <span id="usernameSpan"></span>
+    <br/>
+    密码<input type="text">
+    <span id="passwordSpan"></span>
+    <br/>
+    <input type="submit" value="注册">
+</form>
+</body>
+</html>

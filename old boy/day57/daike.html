@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    button{
+        margin: 0 20px;
+    }
+    span{
+        margin: 0 10px;
+    }
+</style>
+<script type="text/javascript">
+    var index = 0;
+    var xmldoc = new ActiveXObject("Micosoft")
+
+    function getXML() {
+        setTable(xmldoc.document.firstChild);
+    }
+    function setTable(node) {
+	if(node==null)
+		return false;
+	document.getElementById("id").innerHTML = node.childNodes[0].firstChild.data;
+	document.getElementById("name").innerHTML = node.childNodes[1].firstChild.data;
+	document.getElementById("major").innerHTML = node.childNodes[2].firstChild.data;
+	return true;
+    }
+
+</script>
+<body onload="getXML()">
+<table border="1" >
+    <tr>
+        <td>学号</td>
+        <td id="id" width="500px"></td>
+    </tr>
+    <tr>
+        <td>姓名</td>
+        <td id="name"></td>
+    </tr>
+    <tr>
+        <td>专业</td>
+        <td id="major"></td>
+    </tr>
+    <tr>
+         <td colspan="2">
+            <button id="prev">上一页</button>
+            <button id="load">下一页</button>
+            <button id="next">加载</button>
+            <span>跳转到第<input id="page">页</span>
+            <span>访问次数</span><span id="number">0</span>
+         </td>
+    </tr>
+</table>
+</body>
+</html>
